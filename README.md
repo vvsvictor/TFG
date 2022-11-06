@@ -46,17 +46,17 @@ Los resultados obtenidos fueron los siguientes:
 
 #### Generación del modelo $W^{s*}_{f}$
 
-![W^{s*}_{f}](./Transtailor/img/V1_Wsf.png)
+![W^{s*}_{f}](./Transtailor/img/V1_Wsf.jpg)
 
 Tal y como se puede observar, el modelo $W^{s*}_{f}$ no ha sido capaz de aprender a partir de los factores $alpha$, al inicializarlos con valores aleatorios.
 
 #### Pruning de los filtros
 
-![Pruning](./Transtailor/img/V1_filters.png)
+![Pruning](./Transtailor/img/V1_filters.jpg)
 
 #### Generación del modelo $W^{t}_{p}$
 
-![W^{t}_{p}](./Transtailor/img/V1_Wtp.png)
+![W^{t}_{p}](./Transtailor/img/V1_Wtp.jpg)
 
 
 
@@ -78,26 +78,26 @@ Los resultados obtenidos fueron los siguientes:
 
 #### Generación del modelo $W^{s*}_{f}$
 
-![W^{s*}_{f}](./Transtailor/img/V2_Wsf.png)
+![W^{s*}_{f}](./Transtailor/img/V2_Wsf.jpg)
 
 En este caso al inicializar los factores de escalado $alpha$ con valores a 1, el modelo $W^{s*}_{f}$ no ha perdido la información que tenía el modelo original, por lo que ha podido aprender a partir de los factores $alpha$. Sin embargo, el modelo no mejora respecto al modelo original.
 
 #### Pruning de los filtros
 
-![Pruning](./Transtailor/img/V2_filters.png)
+![Pruning](./Transtailor/img/V2_filters.jpg)
 
 El pruning obtenido es muy similar al obtenido en el paper original, los filtros con mayor poda son los de las últimas capas convolucionales.
 
 #### Generación del modelo $W^{t}_{p}$
 
-![W^{t}_{p}](./Transtailor/img/V2_Wtp.png)
+![W^{t}_{p}](./Transtailor/img/V2_Wtp.jpg)
 
 Tras aplicar la poda sobre el modelo, no es capaz de recuperar la precisión que tenía el modelo original, por lo que no es capaz de mejorar respecto a este.
 
 
 ### Conclusiones
 
-Los resultados de este modelo no son satisfactorios, en la Versión 1 el accuracy obtendio tras la aleatorización de los factores de escalado $alpha$ es de aproximadamente un 3% y en la Versión 2 la perdida de accuracy se produce tras la transformación a los factores de importancia $beta$, con un accuracy inferior a un 1% .
+Los resultados de este modelo no son satisfactorios, en la Versión 1 el accuracy obtendio tras la aleatorización de los factores de escalado $alpha$ es de aproximadamente un 3% y en la Versión 2 la perdida de accuracy se produce tras la transformación a los factores de importancia $beta$, con un accuracy inferior a un 1%.
 En ambas versiones, el modelo parece converger, sin embargo no recupera la precisión del modelo original.
 La poda de los filtros menos importantes (basados en $beta$) es parecida a la mostrada en el paper tal y como se ha mostrado en las imágenes anteriores.
 
