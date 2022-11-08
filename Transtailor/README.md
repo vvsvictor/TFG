@@ -23,8 +23,6 @@ En cuanto al método de evaluación, en vez de utilizar el accuracy, se ha utili
 
 En cuanto al procedimiento de entrenamiento, se ha utilizado el mismo que se ha utilizado en el paper original, es decir, se ha utilizado el método de fine-tuning, con los mismos learning rates y epochs.
 
-Con tal de obtener el mejor modelo, se ha utilizado una restauración de pesos. 
-
 Además se ha utilizado la técnica Early Stopping, con tal de evitar el overfitting y terminar el entrenamiento cuando el modelo ya no mejora.
 
 
@@ -100,9 +98,4 @@ Tras aplicar la poda sobre el modelo, no es capaz de recuperar la precisión que
 Los resultados de este modelo no son satisfactorios, en la Versión 1 el accuracy obtendio tras la aleatorización de los factores de escalado $alpha$ es de aproximadamente un 3% y en la Versión 2 la perdida de accuracy se produce tras la transformación a los factores de importancia $beta$, con un accuracy inferior a un 1%.
 En ambas versiones, el modelo parece converger, sin embargo no recupera la precisión del modelo original.
 La poda de los filtros menos importantes (basados en $beta$) es parecida a la mostrada en el paper tal y como se ha mostrado en las imágenes anteriores.
-
-
-
-
-
 
