@@ -44,17 +44,17 @@ Los resultados obtenidos fueron los siguientes:
 
 #### Generación del modelo $W^{s*}_{f}$
 
-![W^{s*}_{f}](./Transtailor/img/V1_Wsf.jpg)
+![W^{s*}_{f}](./img/V1_Wsf.jpg)
 
 Tal y como se puede observar, el modelo $W^{s*}_{f}$ no ha sido capaz de aprender a partir de los factores $alpha$, al inicializarlos con valores aleatorios.
 
 #### Pruning de los filtros
 
-![Pruning](./Transtailor/img/V1_filters.jpg)
+![Pruning](./img/V1_filters.jpg)
 
 #### Generación del modelo $W^{t}_{p}$
 
-![W^{t}_{p}](./Transtailor/img/V1_Wtp.jpg)
+![W^{t}_{p}](./img/V1_Wtp.jpg)
 
 
 
@@ -76,19 +76,19 @@ Los resultados obtenidos fueron los siguientes:
 
 #### Generación del modelo $W^{s*}_{f}$
 
-![W^{s*}_{f}](./Transtailor/img/V2_Wsf.jpg)
+![W^{s*}_{f}](./img/V2_Wsf.jpg)
 
 En este caso al inicializar los factores de escalado $alpha$ con valores a 1, el modelo $W^{s*}_{f}$ no ha perdido la información que tenía el modelo original, por lo que ha podido aprender a partir de los factores $alpha$. Sin embargo, el modelo no mejora respecto al modelo original.
 
 #### Pruning de los filtros
 
-![Pruning](./Transtailor/img/V2_filters.jpg)
+![Pruning](./img/V2_filters.jpg)
 
 El pruning obtenido es muy similar al obtenido en el paper original, los filtros con mayor poda son los de las últimas capas convolucionales.
 
 #### Generación del modelo $W^{t}_{p}$
 
-![W^{t}_{p}](./Transtailor/img/V2_Wtp.jpg)
+![W^{t}_{p}](./img/V2_Wtp.jpg)
 
 Tras aplicar la poda sobre el modelo, no es capaz de recuperar la precisión que tenía el modelo original, por lo que no es capaz de mejorar respecto a este.
 
