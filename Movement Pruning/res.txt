@@ -1,0 +1,564 @@
+10%:
+
+Validation:
+Val_bal_acc: [0.21101149425287363, 0.4427586206896554, 0.5512183908045983, 0.6070804597701152, 0.634885057471264, 0.6512643678160915, 0.6882873563218395, 0.7006149425287362, 0.7281896551724141, 0.7198908045977013, 0.759103448275862, 0.7538850574712643, 0.7694310344827591, 0.8014137931034484, 0.778948275862069, 0.7980977011494262, 0.8011724137931043, 0.814454022988506, 0.8192528735632184, 0.8227931034482772, 0.8264367816091963, 0.8184482758620697, 0.8273563218390815, 0.8416896551724145, 0.8413620689655181, 0.8386666666666681, 0.8383390804597706, 0.8523735632183915, 0.8562068965517254, 0.8505402298850586, 0.8568160919540246, 0.8522298850574725, 0.8643850574712656, 0.8645402298850587, 0.8633620689655183, 0.8675919540229899, 0.869367816091955, 0.8752183908045992, 0.8687701149425304, 0.867919540229886, 0.8808735632183923, 0.8850517241379328, 0.8907356321839096, 0.8727068965517253, 0.8816264367816105, 0.8915689655172433, 0.8835402298850589, 0.8810977011494266, 0.8897356321839098, 0.8854367816091968]
+Val_acc: [tensor(0.2183, device='cuda:0', dtype=torch.float64), tensor(0.4581, device='cuda:0', dtype=torch.float64), tensor(0.5704, device='cuda:0', dtype=torch.float64), tensor(0.6281, device='cuda:0', dtype=torch.float64), tensor(0.6569, device='cuda:0', dtype=torch.float64), tensor(0.6738, device='cuda:0', dtype=torch.float64), tensor(0.7121, device='cuda:0', dtype=torch.float64), tensor(0.7249, device='cuda:0', dtype=torch.float64), tensor(0.7534, device='cuda:0', dtype=torch.float64), tensor(0.7447, device='cuda:0', dtype=torch.float64), tensor(0.7853, device='cuda:0', dtype=torch.float64), tensor(0.7799, device='cuda:0', dtype=torch.float64), tensor(0.7960, device='cuda:0', dtype=torch.float64), tensor(0.8291, device='cuda:0', dtype=torch.float64), tensor(0.8058, device='cuda:0', dtype=torch.float64), tensor(0.8257, device='cuda:0', dtype=torch.float64), tensor(0.8288, device='cuda:0', dtype=torch.float64), tensor(0.8426, device='cuda:0', dtype=torch.float64), tensor(0.8476, device='cuda:0', dtype=torch.float64), tensor(0.8512, device='cuda:0', dtype=torch.float64), tensor(0.8550, device='cuda:0', dtype=torch.float64), tensor(0.8467, device='cuda:0', dtype=torch.float64), tensor(0.8559, device='cuda:0', dtype=torch.float64), tensor(0.8707, device='cuda:0', dtype=torch.float64), tensor(0.8704, device='cuda:0', dtype=torch.float64), tensor(0.8676, device='cuda:0', dtype=torch.float64), tensor(0.8673, device='cuda:0', dtype=torch.float64), tensor(0.8818, device='cuda:0', dtype=torch.float64), tensor(0.8857, device='cuda:0', dtype=torch.float64), tensor(0.8799, device='cuda:0', dtype=torch.float64), tensor(0.8864, device='cuda:0', dtype=torch.float64), tensor(0.8816, device='cuda:0', dtype=torch.float64), tensor(0.8942, device='cuda:0', dtype=torch.float64), tensor(0.8944, device='cuda:0', dtype=torch.float64), tensor(0.8932, device='cuda:0', dtype=torch.float64), tensor(0.8975, device='cuda:0', dtype=torch.float64), tensor(0.8994, device='cuda:0', dtype=torch.float64), tensor(0.9054, device='cuda:0', dtype=torch.float64), tensor(0.8987, device='cuda:0', dtype=torch.float64), tensor(0.8978, device='cuda:0', dtype=torch.float64), tensor(0.9113, device='cuda:0', dtype=torch.float64), tensor(0.9156, device='cuda:0', dtype=torch.float64), tensor(0.9215, device='cuda:0', dtype=torch.float64), tensor(0.9028, device='cuda:0', dtype=torch.float64), tensor(0.9120, device='cuda:0', dtype=torch.float64), tensor(0.9223, device='cuda:0', dtype=torch.float64), tensor(0.9140, device='cuda:0', dtype=torch.float64), tensor(0.9115, device='cuda:0', dtype=torch.float64), tensor(0.9204, device='cuda:0', dtype=torch.float64), tensor(0.9159, device='cuda:0', dtype=torch.float64)]
+Val_loss: [3.8138094953228205, 2.4277941650631596, 1.878983623289346, 1.6077875148686287, 1.4880043608919276, 1.403640858378952, 1.2952416943071792, 1.1821303417816793, 1.0803202612876563, 1.1281019066957758, 0.9825087052030237, 0.9826354201925512, 0.9359317906033717, 0.8181816138890352, 0.8937072090786574, 0.8207904830405249, 0.813524779982924, 0.7501345422706565, 0.7524679921487714, 0.711236706428541, 0.7152928682413848, 0.7410553317050256, 0.731125542859929, 0.6547746927235346, 0.6471258698350856, 0.6681113134057595, 0.656060842592057, 0.61905568179732, 0.5893270485887537, 0.6102413887149678, 0.5978558621387626, 0.6140655352199411, 0.5678212439598278, 0.57729912633356, 0.5753734737871267, 0.531743686632078, 0.5575711517281313, 0.5247564868224174, 0.5437853554219347, 0.5359437421740932, 0.49702001787647526, 0.4712346440600987, 0.45958481272788637, 0.5030251297409221, 0.49976668857400647, 0.4456922021412545, 0.4844463449698051, 0.47404377257614083, 0.45520803191392717, 0.4635437140186614]
+Training:
+Train_bal_acc: [0.04152873563218388, 0.2206609195402301, 0.36063793103448283, 0.439425287356322, 0.5034482758620688, 0.5208045977011491, 0.5676609195402298, 0.5845229885057475, 0.6125747126436782, 0.6303965517241377, 0.6329367816091958, 0.6626264367816093, 0.671649425287356, 0.6901264367816095, 0.6968390804597702, 0.6986609195402302, 0.7043333333333339, 0.7125402298850578, 0.7155517241379318, 0.7367701149425294, 0.7508965517241386, 0.7486034482758623, 0.7512701149425289, 0.758057471264368, 0.757155172413793, 0.7742471264367823, 0.7764137931034485, 0.7784137931034482, 0.7752528735632188, 0.801614942528736, 0.7991149425287364, 0.7992643678160931, 0.80430459770115, 0.8143333333333344, 0.8046206896551726, 0.8126666666666675, 0.7962931034482765, 0.811931034482759, 0.8210057471264374, 0.8229482758620699, 0.8184770114942538, 0.8218103448275867, 0.8273448275862075, 0.8381551724137946, 0.82796551724138, 0.8364770114942539, 0.837011494252874, 0.8366781609195411, 0.829494252873564, 0.838522988505748]
+Train_acc: [tensor(0.0415, device='cuda:0', dtype=torch.float64), tensor(0.2207, device='cuda:0', dtype=torch.float64), tensor(0.3607, device='cuda:0', dtype=torch.float64), tensor(0.4394, device='cuda:0', dtype=torch.float64), tensor(0.5035, device='cuda:0', dtype=torch.float64), tensor(0.5209, device='cuda:0', dtype=torch.float64), tensor(0.5677, device='cuda:0', dtype=torch.float64), tensor(0.5846, device='cuda:0', dtype=torch.float64), tensor(0.6126, device='cuda:0', dtype=torch.float64), tensor(0.6305, device='cuda:0', dtype=torch.float64), tensor(0.6330, device='cuda:0', dtype=torch.float64), tensor(0.6627, device='cuda:0', dtype=torch.float64), tensor(0.6717, device='cuda:0', dtype=torch.float64), tensor(0.6902, device='cuda:0', dtype=torch.float64), tensor(0.6969, device='cuda:0', dtype=torch.float64), tensor(0.6987, device='cuda:0', dtype=torch.float64), tensor(0.7044, device='cuda:0', dtype=torch.float64), tensor(0.7125, device='cuda:0', dtype=torch.float64), tensor(0.7155, device='cuda:0', dtype=torch.float64), tensor(0.7367, device='cuda:0', dtype=torch.float64), tensor(0.7509, device='cuda:0', dtype=torch.float64), tensor(0.7486, device='cuda:0', dtype=torch.float64), tensor(0.7513, device='cuda:0', dtype=torch.float64), tensor(0.7581, device='cuda:0', dtype=torch.float64), tensor(0.7573, device='cuda:0', dtype=torch.float64), tensor(0.7743, device='cuda:0', dtype=torch.float64), tensor(0.7764, device='cuda:0', dtype=torch.float64), tensor(0.7784, device='cuda:0', dtype=torch.float64), tensor(0.7753, device='cuda:0', dtype=torch.float64), tensor(0.8016, device='cuda:0', dtype=torch.float64), tensor(0.7991, device='cuda:0', dtype=torch.float64), tensor(0.7993, device='cuda:0', dtype=torch.float64), tensor(0.8043, device='cuda:0', dtype=torch.float64), tensor(0.8143, device='cuda:0', dtype=torch.float64), tensor(0.8046, device='cuda:0', dtype=torch.float64), tensor(0.8126, device='cuda:0', dtype=torch.float64), tensor(0.7963, device='cuda:0', dtype=torch.float64), tensor(0.8120, device='cuda:0', dtype=torch.float64), tensor(0.8210, device='cuda:0', dtype=torch.float64), tensor(0.8230, device='cuda:0', dtype=torch.float64), tensor(0.8185, device='cuda:0', dtype=torch.float64), tensor(0.8218, device='cuda:0', dtype=torch.float64), tensor(0.8273, device='cuda:0', dtype=torch.float64), tensor(0.8382, device='cuda:0', dtype=torch.float64), tensor(0.8280, device='cuda:0', dtype=torch.float64), tensor(0.8365, device='cuda:0', dtype=torch.float64), tensor(0.8370, device='cuda:0', dtype=torch.float64), tensor(0.8367, device='cuda:0', dtype=torch.float64), tensor(0.8295, device='cuda:0', dtype=torch.float64), tensor(0.8385, device='cuda:0', dtype=torch.float64)]
+Train_loss: [4.99899831468915, 3.3532267691574376, 2.573616886043453, 2.196796639426215, 1.928411775165134, 1.827393931112649, 1.6276442803738314, 1.5338742513834813, 1.467471526748624, 1.3813816709123852, 1.3818179252030733, 1.2624466358362376, 1.2250114732238901, 1.1556217582137496, 1.106050743832364, 1.1118790735035369, 1.0858724353151954, 1.0729728540580274, 1.0530543431545203, 0.9810256075174919, 0.9406738942728307, 0.9528994799097816, 0.9279180079012423, 0.8871932418934297, 0.9113849414202385, 0.8383098768320806, 0.832312269492431, 0.8310503152596541, 0.8347965409288735, 0.7489070010992699, 0.7838262702808565, 0.7398731734580026, 0.7255787120328413, 0.7150995989501338, 0.7436012521679496, 0.7249411248070898, 0.7653255005816758, 0.7230762148006861, 0.6924866971708673, 0.6634400916529132, 0.6770291379940363, 0.6935704481534095, 0.6572151242751935, 0.6289758080436979, 0.6441364281568123, 0.6473651880974526, 0.6198381947444843, 0.6179709140563114, 0.6373686270989057, 0.6090729818727559]
+
+30%:
+
+Validation:
+Val_bal_acc: [0.34975862068965496, 0.5059195402298851, 0.5613735632183908, 0.6040574712643683, 0.6571551724137927, 0.6862873563218393, 0.6955862068965516, 0.7319195402298851, 0.7352758620689654, 0.7474195402298855, 0.7624425287356325, 0.7421954022988512, 0.7806206896551727, 0.7951091954022995, 0.8085057471264372, 0.8059942528735636, 0.8127931034482764, 0.8082126436781618, 0.8146206896551733, 0.8338333333333341, 0.8193275862068972, 0.8157988505747131, 0.8274885057471273, 0.8178735632183914, 0.8358505747126448, 0.8318505747126443, 0.8440747126436784, 0.8484655172413799, 0.8443218390804609, 0.8466666666666676, 0.8522241379310356, 0.8540747126436793, 0.8598505747126447, 0.8481781609195416, 0.8601839080459776, 0.8544022988505753, 0.8542241379310355, 0.853494252873564, 0.8692241379310357, 0.8728390804597711, 0.8480402298850587, 0.8645229885057485, 0.8755344827586222, 0.8533390804597716, 0.8571724137931045, 0.8680057471264377, 0.8639827586206912, 0.8687126436781617, 0.871718390804599, 0.8764942528735645]
+Val_acc: [tensor(0.3619, device='cuda:0', dtype=torch.float64), tensor(0.5235, device='cuda:0', dtype=torch.float64), tensor(0.5808, device='cuda:0', dtype=torch.float64), tensor(0.6250, device='cuda:0', dtype=torch.float64), tensor(0.6798, device='cuda:0', dtype=torch.float64), tensor(0.7100, device='cuda:0', dtype=torch.float64), tensor(0.7197, device='cuda:0', dtype=torch.float64), tensor(0.7572, device='cuda:0', dtype=torch.float64), tensor(0.7606, device='cuda:0', dtype=torch.float64), tensor(0.7732, device='cuda:0', dtype=torch.float64), tensor(0.7887, device='cuda:0', dtype=torch.float64), tensor(0.7679, device='cuda:0', dtype=torch.float64), tensor(0.8076, device='cuda:0', dtype=torch.float64), tensor(0.8226, device='cuda:0', dtype=torch.float64), tensor(0.8364, device='cuda:0', dtype=torch.float64), tensor(0.8338, device='cuda:0', dtype=torch.float64), tensor(0.8409, device='cuda:0', dtype=torch.float64), tensor(0.8362, device='cuda:0', dtype=torch.float64), tensor(0.8428, device='cuda:0', dtype=torch.float64), tensor(0.8626, device='cuda:0', dtype=torch.float64), tensor(0.8476, device='cuda:0', dtype=torch.float64), tensor(0.8440, device='cuda:0', dtype=torch.float64), tensor(0.8561, device='cuda:0', dtype=torch.float64), tensor(0.8460, device='cuda:0', dtype=torch.float64), tensor(0.8647, device='cuda:0', dtype=torch.float64), tensor(0.8605, device='cuda:0', dtype=torch.float64), tensor(0.8731, device='cuda:0', dtype=torch.float64), tensor(0.8778, device='cuda:0', dtype=torch.float64), tensor(0.8735, device='cuda:0', dtype=torch.float64), tensor(0.8759, device='cuda:0', dtype=torch.float64), tensor(0.8816, device='cuda:0', dtype=torch.float64), tensor(0.8835, device='cuda:0', dtype=torch.float64), tensor(0.8895, device='cuda:0', dtype=torch.float64), tensor(0.8775, device='cuda:0', dtype=torch.float64), tensor(0.8899, device='cuda:0', dtype=torch.float64), tensor(0.8838, device='cuda:0', dtype=torch.float64), tensor(0.8837, device='cuda:0', dtype=torch.float64), tensor(0.8830, device='cuda:0', dtype=torch.float64), tensor(0.8992, device='cuda:0', dtype=torch.float64), tensor(0.9030, device='cuda:0', dtype=torch.float64), tensor(0.8773, device='cuda:0', dtype=torch.float64), tensor(0.8944, device='cuda:0', dtype=torch.float64), tensor(0.9058, device='cuda:0', dtype=torch.float64), tensor(0.8828, device='cuda:0', dtype=torch.float64), tensor(0.8868, device='cuda:0', dtype=torch.float64), tensor(0.8980, device='cuda:0', dtype=torch.float64), tensor(0.8939, device='cuda:0', dtype=torch.float64), tensor(0.8987, device='cuda:0', dtype=torch.float64), tensor(0.9018, device='cuda:0', dtype=torch.float64), tensor(0.9068, device='cuda:0', dtype=torch.float64)]
+Val_loss: [2.9120261977778084, 2.060608708286516, 1.8220420721937634, 1.5447306514280106, 1.3610152826664734, 1.2461937672934698, 1.2241756869547524, 1.0989648318512917, 1.0206738633042909, 0.9994543497423324, 0.9463997913468571, 0.9887298561804946, 0.8711288451819243, 0.8261297685876977, 0.759356901877742, 0.7819142719775098, 0.7459390581291957, 0.767945071829571, 0.7339575341087726, 0.6972294946065803, 0.7355117636546621, 0.7257069090460349, 0.6922560513204733, 0.7218482120925079, 0.703883183143408, 0.6937003331551438, 0.6258471934475238, 0.6434381223975851, 0.6413563127800807, 0.6233422572258056, 0.603347772081062, 0.6006603381722847, 0.580221371688553, 0.637361649345397, 0.576829437350338, 0.6016815085945189, 0.5921909797590768, 0.6047782626158622, 0.519132288262212, 0.5413237715543119, 0.6143336837399529, 0.5495728825469407, 0.5242882236596589, 0.588851881254314, 0.5751960909403642, 0.5654342750001867, 0.5560195094240012, 0.5259720535269268, 0.5310712830132355, 0.5193391805646499]
+Training:
+Train_bal_acc: [0.10491954022988516, 0.3241379310344829, 0.41658045977011476, 0.4889712643678161, 0.531086206896552, 0.5642183908045978, 0.6003678160919536, 0.6113735632183909, 0.6436494252873559, 0.6487931034482757, 0.674844827586207, 0.686965517241379, 0.6956494252873567, 0.7028735632183906, 0.7118390804597701, 0.720195402298851, 0.7361954022988509, 0.7414252873563224, 0.7498678160919543, 0.7512356321839083, 0.7550919540229889, 0.7675517241379315, 0.7722931034482761, 0.7758965517241387, 0.776413793103449, 0.7909597701149436, 0.7861206896551732, 0.7898045977011505, 0.7959425287356333, 0.7965862068965524, 0.7902586206896552, 0.8029137931034489, 0.804126436781611, 0.805270114942529, 0.80762643678161, 0.8086321839080465, 0.820505747126438, 0.8156494252873567, 0.8226494252873569, 0.8139827586206906, 0.8101149425287361, 0.8219942528735639, 0.8250172413793109, 0.8231551724137944, 0.8196379310344826, 0.8249540229885065, 0.8330000000000005, 0.8313275862068977, 0.8310172413793113, 0.8263620689655178]
+Train_acc: [tensor(0.1049, device='cuda:0', dtype=torch.float64), tensor(0.3242, device='cuda:0', dtype=torch.float64), tensor(0.4166, device='cuda:0', dtype=torch.float64), tensor(0.4890, device='cuda:0', dtype=torch.float64), tensor(0.5312, device='cuda:0', dtype=torch.float64), tensor(0.5642, device='cuda:0', dtype=torch.float64), tensor(0.6004, device='cuda:0', dtype=torch.float64), tensor(0.6114, device='cuda:0', dtype=torch.float64), tensor(0.6436, device='cuda:0', dtype=torch.float64), tensor(0.6488, device='cuda:0', dtype=torch.float64), tensor(0.6748, device='cuda:0', dtype=torch.float64), tensor(0.6870, device='cuda:0', dtype=torch.float64), tensor(0.6957, device='cuda:0', dtype=torch.float64), tensor(0.7029, device='cuda:0', dtype=torch.float64), tensor(0.7119, device='cuda:0', dtype=torch.float64), tensor(0.7202, device='cuda:0', dtype=torch.float64), tensor(0.7362, device='cuda:0', dtype=torch.float64), tensor(0.7414, device='cuda:0', dtype=torch.float64), tensor(0.7499, device='cuda:0', dtype=torch.float64), tensor(0.7513, device='cuda:0', dtype=torch.float64), tensor(0.7551, device='cuda:0', dtype=torch.float64), tensor(0.7676, device='cuda:0', dtype=torch.float64), tensor(0.7723, device='cuda:0', dtype=torch.float64), tensor(0.7759, device='cuda:0', dtype=torch.float64), tensor(0.7764, device='cuda:0', dtype=torch.float64), tensor(0.7910, device='cuda:0', dtype=torch.float64), tensor(0.7861, device='cuda:0', dtype=torch.float64), tensor(0.7898, device='cuda:0', dtype=torch.float64), tensor(0.7960, device='cuda:0', dtype=torch.float64), tensor(0.7966, device='cuda:0', dtype=torch.float64), tensor(0.7903, device='cuda:0', dtype=torch.float64), tensor(0.8030, device='cuda:0', dtype=torch.float64), tensor(0.8041, device='cuda:0', dtype=torch.float64), tensor(0.8053, device='cuda:0', dtype=torch.float64), tensor(0.8076, device='cuda:0', dtype=torch.float64), tensor(0.8086, device='cuda:0', dtype=torch.float64), tensor(0.8205, device='cuda:0', dtype=torch.float64), tensor(0.8156, device='cuda:0', dtype=torch.float64), tensor(0.8227, device='cuda:0', dtype=torch.float64), tensor(0.8140, device='cuda:0', dtype=torch.float64), tensor(0.8101, device='cuda:0', dtype=torch.float64), tensor(0.8220, device='cuda:0', dtype=torch.float64), tensor(0.8250, device='cuda:0', dtype=torch.float64), tensor(0.8232, device='cuda:0', dtype=torch.float64), tensor(0.8197, device='cuda:0', dtype=torch.float64), tensor(0.8250, device='cuda:0', dtype=torch.float64), tensor(0.8330, device='cuda:0', dtype=torch.float64), tensor(0.8313, device='cuda:0', dtype=torch.float64), tensor(0.8310, device='cuda:0', dtype=torch.float64), tensor(0.8263, device='cuda:0', dtype=torch.float64)]
+Train_loss: [4.406225369459476, 2.79945959653463, 2.2898411090110673, 1.967067951992189, 1.8140753163947716, 1.673808015502609, 1.5343468601320998, 1.4163380156249097, 1.339407931000223, 1.3274474430370617, 1.2031159251381407, 1.1837377208926736, 1.160421465132926, 1.0898581014938022, 1.0687842501932119, 1.0255290954797953, 0.9959514044824345, 0.9662063899818245, 0.9300503470637538, 0.9272924949019441, 0.9279008513098365, 0.8777798597200894, 0.846011822327877, 0.8322462333135697, 0.8543105939248422, 0.8015297236425064, 0.8130737318171634, 0.7985156506827007, 0.780089852529086, 0.7762543112487048, 0.7726871275607451, 0.7421920761331782, 0.7447197986595783, 0.7458332333120856, 0.7395888658257218, 0.7267710814550196, 0.6871842019431464, 0.6951597180810418, 0.6715911331552046, 0.7023456280614123, 0.7300863764340461, 0.691022287319611, 0.6789221554574447, 0.6887377504511678, 0.6827019678965126, 0.6701509057978292, 0.6218539392466859, 0.6497376552513531, 0.6512080299921899, 0.6541548002303681]
+
+
+__________________________________________
+
+Updated code:
+
+traced_optimizer = nni.trace(optim.SGD)(model.parameters(), lr=0.001, momentum=0.9)
+# Operation types to be pruned and operation partial names to be pruned in vgg16
+#Prune 10% of the filters 
+config_list = [{'op_types': ['Conv2d','Linear'], 
+'sparsity_per_layer': 0.1}]
+#criterion (Callable[[Tensor, Tensor], Tensor]) – The criterion function used in trainer. Take model output and target value as input, and return the loss.
+criterion = nn.CrossEntropyLoss()
+evaluator = TorchEvaluator(training_func=training_model, optimizers=traced_optimizer,criterion=criterion)
+# warm_up_step – The total optimizer.step() number before start pruning for warm up. Make sure warm_up_step is smaller than cool_down_beginning_step.
+# cool_down_beginning_step – The number of steps at which sparsity stops growing, note that the sparsity stop growing doesn’t mean masks not changed.
+warm_up_step = len(train_ds) // BATCH_SIZE * 1
+cool_down_begin_step = len(train_ds) // BATCH_SIZE * 2
+pruner = MovementPruner(model, config_list, evaluator, warm_up_step=warm_up_step, cool_down_beginning_step=cool_down_begin_step, training_epochs=50, regular_scale=15, movement_mode='soft')
+
+_, masks = pruner.compress()
+
+
+Val <-> Train
+
+Results: 
+[2022-11-11 16:25:19] WARNING: Did not bind any model, no need to unbind model.
+Val Acc: 0.1073
+Train Acc: 0.3101
+Val Acc: 0.3300
+Train Acc: 0.4180
+Val Acc: 0.4284
+Train Acc: 0.4625
+Val Acc: 0.4842
+Train Acc: 0.5119
+Val Acc: 0.5370
+Train Acc: 0.5250
+Val Acc: 0.5712
+Train Acc: 0.5456
+Val Acc: 0.6063
+Train Acc: 0.5613
+Val Acc: 0.6306
+Train Acc: 0.5723
+Val Acc: 0.6303
+Train Acc: 0.5889
+Val Acc: 0.6675
+Train Acc: 0.5816
+Val Acc: 0.6665
+Train Acc: 0.5860
+Val Acc: 0.6722
+Train Acc: 0.5994
+Val Acc: 0.6952
+Train Acc: 0.6017
+Val Acc: 0.7199
+Train Acc: 0.6056
+Val Acc: 0.7269
+Train Acc: 0.5973
+Val Acc: 0.7307
+Train Acc: 0.6151
+Val Acc: 0.7289
+Train Acc: 0.6051
+Val Acc: 0.7508
+Train Acc: 0.6103
+Val Acc: 0.7596
+Train Acc: 0.6063
+Val Acc: 0.7538
+Train Acc: 0.6225
+Val Acc: 0.7589
+Train Acc: 0.6042
+Val Acc: 0.7726
+Train Acc: 0.6105
+Val Acc: 0.7648
+Train Acc: 0.6120
+Val Acc: 0.7840
+Train Acc: 0.6241
+Val Acc: 0.7993
+Train Acc: 0.6044
+Val Acc: 0.7951
+Train Acc: 0.6215
+Val Acc: 0.7975
+Train Acc: 0.6236
+Val Acc: 0.8038
+Train Acc: 0.6099
+Val Acc: 0.8053
+Train Acc: 0.6049
+
+__________________________________________
+
+Different warm up
+
+
+traced_optimizer = nni.trace(optim.SGD)(model.parameters(), lr=0.001, momentum=0.9)
+# Operation types to be pruned and operation partial names to be pruned in vgg16
+#Prune 10% of the filters 
+config_list = [{'op_types': ['Conv2d','Linear'], 
+'sparsity_per_layer': 0.1}]
+#criterion (Callable[[Tensor, Tensor], Tensor]) – The criterion function used in trainer. Take model output and target value as input, and return the loss.
+criterion = nn.CrossEntropyLoss()
+evaluator = TorchEvaluator(training_func=training_model, optimizers=traced_optimizer,criterion=criterion)
+# warm_up_step – The total optimizer.step() number before start pruning for warm up. Make sure warm_up_step is smaller than cool_down_beginning_step.
+# cool_down_beginning_step – The number of steps at which sparsity stops growing, note that the sparsity stop growing doesn’t mean masks not changed.
+warm_up_step = len(train_ds) // BATCH_SIZE * 6
+cool_down_begin_step = len(train_ds) // BATCH_SIZE * 8
+pruner = MovementPruner(model, config_list, evaluator, warm_up_step=warm_up_step, cool_down_beginning_step=cool_down_begin_step, training_epochs=50, regular_scale=15, movement_mode='soft')
+
+_, masks = pruner.compress()
+
+Results:
+
+Train Acc: 0.0943
+Val Acc: 0.2829
+Train Acc: 0.3158
+Val Acc: 0.4197
+Train Acc: 0.4274
+Val Acc: 0.4589
+Train Acc: 0.4955
+Val Acc: 0.4979
+Train Acc: 0.5370
+Val Acc: 0.5290
+Train Acc: 0.5686
+Val Acc: 0.5652
+Train Acc: 0.5996
+Val Acc: 0.5611
+Train Acc: 0.6208
+Val Acc: 0.5744
+Train Acc: 0.6458
+Val Acc: 0.5604
+Train Acc: 0.6593
+Val Acc: 0.5929
+Train Acc: 0.6713
+Val Acc: 0.5830
+Train Acc: 0.6907
+Val Acc: 0.5972
+Train Acc: 0.6884
+Val Acc: 0.5851
+Train Acc: 0.7145
+Val Acc: 0.6058
+Train Acc: 0.7079
+Val Acc: 0.5958
+Train Acc: 0.7227
+Val Acc: 0.6136
+Train Acc: 0.7344
+Val Acc: 0.6191
+Train Acc: 0.7419
+Val Acc: 0.6215
+Train Acc: 0.7514
+Val Acc: 0.6155
+Train Acc: 0.7508
+Val Acc: 0.6148
+Train Acc: 0.7624
+Val Acc: 0.6101
+Train Acc: 0.7749
+Val Acc: 0.6231
+Train Acc: 0.7828
+Val Acc: 0.6206
+Train Acc: 0.7898
+Val Acc: 0.6248
+Train Acc: 0.7910
+Val Acc: 0.6262
+Train Acc: 0.7826
+Val Acc: 0.6136
+
+__________________________________________
+
+
+
+traced_optimizer = nni.trace(optim.SGD)(model.parameters(), lr=0.001, momentum=0.9)
+# Operation types to be pruned and operation partial names to be pruned in vgg16
+#Prune 10% of the filters 
+config_list = [{'op_types': ['Conv2d','Linear'], 
+'sparsity_per_layer': 0.1}]
+#criterion (Callable[[Tensor, Tensor], Tensor]) – The criterion function used in trainer. Take model output and target value as input, and return the loss.
+criterion = nn.CrossEntropyLoss()
+evaluator = TorchEvaluator(training_func=training_model, optimizers=traced_optimizer,criterion=criterion)
+# warm_up_step – The total optimizer.step() number before start pruning for warm up. Make sure warm_up_step is smaller than cool_down_beginning_step.
+# cool_down_beginning_step – The number of steps at which sparsity stops growing, note that the sparsity stop growing doesn’t mean masks not changed.
+warm_up_step = len(train_ds) // BATCH_SIZE * 6
+cool_down_begin_step = len(train_ds) // BATCH_SIZE * 8
+pruner = MovementPruner(model, config_list, evaluator, warm_up_step=warm_up_step, cool_down_beginning_step=cool_down_begin_step, training_epochs=50,  movement_mode='hard')
+
+_, masks = pruner.compress()
+
+Results:
+[2022-11-11 21:22:45] WARNING: Did not bind any model, no need to unbind model.
+Train Acc: 0.0954
+Val Acc: 0.2972
+Train Acc: 0.3100
+Val Acc: 0.4089
+Train Acc: 0.4169
+Val Acc: 0.4684
+Train Acc: 0.4887
+Val Acc: 0.5209
+Train Acc: 0.5340
+Val Acc: 0.5330
+Train Acc: 0.5706
+Val Acc: 0.5445
+Train Acc: 0.5013
+Val Acc: 0.4845
+Train Acc: 0.5379
+Val Acc: 0.4983
+Train Acc: 0.5794
+Val Acc: 0.5475
+Train Acc: 0.6233
+Val Acc: 0.5639
+Train Acc: 0.6520
+Val Acc: 0.5882
+Train Acc: 0.6486
+Val Acc: 0.5789
+Train Acc: 0.6815
+Val Acc: 0.5899
+Train Acc: 0.6834
+Val Acc: 0.5865
+Train Acc: 0.6989
+Val Acc: 0.5866
+Train Acc: 0.7014
+Val Acc: 0.5742
+Train Acc: 0.7187
+Val Acc: 0.5972
+Train Acc: 0.7277
+Val Acc: 0.5906
+Train Acc: 0.7287
+Val Acc: 0.5991
+Train Acc: 0.7394
+Val Acc: 0.6077
+Train Acc: 0.7364
+Val Acc: 0.5782
+Train Acc: 0.7509
+Val Acc: 0.6129
+Train Acc: 0.7603
+Val Acc: 0.6110
+Train Acc: 0.7619
+Val Acc: 0.6303
+Train Acc: 0.7624
+Val Acc: 0.6072
+Train Acc: 0.7713
+Val Acc: 0.6098
+__________________________________________
+
+
+traced_optimizer = nni.trace(optim.SGD)(model.parameters(), lr=0.001, momentum=0.9)
+# Operation types to be pruned and operation partial names to be pruned in vgg16
+#Prune 10% of the filters 
+config_list = [{'op_types': ['Conv2d','Linear'], 
+'sparsity_per_layer': 0.1}]
+#criterion (Callable[[Tensor, Tensor], Tensor]) – The criterion function used in trainer. Take model output and target value as input, and return the loss.
+criterion = nn.CrossEntropyLoss()
+lr_scheduler = nni.trace(torch.optim.lr_scheduler.StepLR)(traced_optimizer, step_size=7, gamma=0.1)
+evaluator = TorchEvaluator(training_func=training_model, optimizers=traced_optimizer,criterion=criterion, lr_schedulers=lr_scheduler)
+# warm_up_step – The total optimizer.step() number before start pruning for warm up. Make sure warm_up_step is smaller than cool_down_beginning_step.
+# cool_down_beginning_step – The number of steps at which sparsity stops growing, note that the sparsity stop growing doesn’t mean masks not changed.
+warm_up_step = len(train_ds) // BATCH_SIZE * 6
+cool_down_begin_step = len(train_ds) // BATCH_SIZE * 8
+pruner = MovementPruner(model, config_list, evaluator, warm_up_step=warm_up_step, cool_down_beginning_step=cool_down_begin_step, training_epochs=50,  movement_mode='hard')
+
+_, masks = pruner.compress()
+
+Train Acc: 0.0933
+Val Acc: 0.2699
+Train Acc: 0.3063
+Val Acc: 0.3876
+Train Acc: 0.4087
+Val Acc: 0.4905
+Train Acc: 0.4922
+Val Acc: 0.4971
+Train Acc: 0.5394
+Val Acc: 0.5271
+Train Acc: 0.5667
+Val Acc: 0.5390
+Train Acc: 0.5234
+Val Acc: 0.4822
+Train Acc: 0.5984
+Val Acc: 0.5376
+Train Acc: 0.6321
+Val Acc: 0.5651
+Train Acc: 0.6648
+Val Acc: 0.5987
+Train Acc: 0.6727
+Val Acc: 0.5929
+Train Acc: 0.6857
+Val Acc: 0.5906
+Train Acc: 0.6997
+Val Acc: 0.6151
+Train Acc: 0.7110
+Val Acc: 0.5989
+Train Acc: 0.7077
+Val Acc: 0.6129
+Train Acc: 0.7264
+Val Acc: 0.6222
+Train Acc: 0.7336
+Val Acc: 0.5975
+Train Acc: 0.7429
+Val Acc: 0.6201
+Train Acc: 0.7372
+Val Acc: 0.6274
+Train Acc: 0.7489
+Val Acc: 0.6248
+Train Acc: 0.7499
+Val Acc: 0.6124
+Train Acc: 0.7457
+Val Acc: 0.6246
+Train Acc: 0.7689
+Val Acc: 0.6193
+Train Acc: 0.7718
+Val Acc: 0.6239
+Train Acc: 0.7769
+Val Acc: 0.6124
+Train Acc: 0.7778
+Val Acc: 0.6350
+Train Acc: 0.7885
+Val Acc: 0.6372
+Train Acc: 0.7741
+Val Acc: 0.6300
+Train Acc: 0.7920
+Val Acc: 0.6324
+Train Acc: 0.7908
+Val Acc: 0.6491
+Train Acc: 0.7923
+Val Acc: 0.6377
+Train Acc: 0.7936
+Val Acc: 0.6398
+Train Acc: 0.8010
+Val Acc: 0.6357
+Train Acc: 0.7943
+Val Acc: 0.6474
+Train Acc: 0.8060
+Val Acc: 0.6472
+Train Acc: 0.8051
+Val Acc: 0.6362
+Train Acc: 0.8061
+Val Acc: 0.6329
+Train Acc: 0.7971
+Val Acc: 0.6479
+Train Acc: 0.8098
+Val Acc: 0.6346
+Train Acc: 0.8095
+Val Acc: 0.6495
+Train Acc: 0.8166
+Val Acc: 0.6365
+Train Acc: 0.8146
+Val Acc: 0.6446
+Train Acc: 0.8165
+Val Acc: 0.6474
+Train Acc: 0.8262
+Val Acc: 0.6512
+Train Acc: 0.8150
+Val Acc: 0.6388
+Train Acc: 0.8227
+Val Acc: 0.6457
+
+
+__________________________________________
+
+
+traced_optimizer = nni.trace(optim.SGD)(model.parameters(), lr=0.001, momentum=0.9)
+# Operation types to be pruned and operation partial names to be pruned in vgg16
+#Prune 10% of the filters 
+config_list = [{'op_types': ['Conv2d','Linear'], 
+'sparsity_per_layer': 0.4}]
+#criterion (Callable[[Tensor, Tensor], Tensor]) – The criterion function used in trainer. Take model output and target value as input, and return the loss.
+criterion = nn.CrossEntropyLoss()
+lr_scheduler = nni.trace(torch.optim.lr_scheduler.StepLR)(traced_optimizer, step_size=7, gamma=0.1)
+evaluator = TorchEvaluator(training_func=training_model, optimizers=traced_optimizer,criterion=criterion, lr_schedulers=lr_scheduler)
+# warm_up_step – The total optimizer.step() number before start pruning for warm up. Make sure warm_up_step is smaller than cool_down_beginning_step.
+# cool_down_beginning_step – The number of steps at which sparsity stops growing, note that the sparsity stop growing doesn’t mean masks not changed.
+warm_up_step = len(train_ds) // BATCH_SIZE * 6
+cool_down_begin_step = len(train_ds) // BATCH_SIZE * 8
+pruner = MovementPruner(model, config_list, evaluator, warm_up_step=warm_up_step, cool_down_beginning_step=cool_down_begin_step, training_epochs=50,  movement_mode='hard')
+
+_, masks = pruner.compress()
+
+
+
+Train Acc: 0.1003
+Val Acc: 0.2957
+Train Acc: 0.3076
+Val Acc: 0.4329
+Train Acc: 0.4117
+Val Acc: 0.4822
+Train Acc: 0.4902
+Val Acc: 0.5064
+Train Acc: 0.5214
+Val Acc: 0.5212
+Train Acc: 0.5552
+Val Acc: 0.4839
+Train Acc: 0.1990
+Val Acc: 0.1921
+Train Acc: 0.2377
+Val Acc: 0.3207
+Train Acc: 0.3170
+Val Acc: 0.3460
+Train Acc: 0.3637
+Val Acc: 0.3773
+Train Acc: 0.4092
+Val Acc: 0.4239
+Train Acc: 0.4351
+Val Acc: 0.4196
+Train Acc: 0.4696
+Val Acc: 0.3940
+Train Acc: 0.4912
+Val Acc: 0.4455
+Train Acc: 0.5117
+Val Acc: 0.4803
+Train Acc: 0.5175
+Val Acc: 0.4776
+Train Acc: 0.5269
+Val Acc: 0.4955
+Train Acc: 0.5459
+Val Acc: 0.4984
+Train Acc: 0.5607
+Val Acc: 0.5186
+Train Acc: 0.5861
+Val Acc: 0.5211
+Train Acc: 0.5794
+Val Acc: 0.5354
+Train Acc: 0.6068
+Val Acc: 0.5207
+Train Acc: 0.6116
+Val Acc: 0.5166
+Train Acc: 0.6173
+Val Acc: 0.5323
+Train Acc: 0.6153
+Val Acc: 0.5388
+Train Acc: 0.6401
+Val Acc: 0.5459
+Train Acc: 0.6411
+Val Acc: 0.5407
+Train Acc: 0.6496
+Val Acc: 0.5312
+Train Acc: 0.6488
+Val Acc: 0.5540
+Train Acc: 0.6692
+Val Acc: 0.5627
+Train Acc: 0.6813
+Val Acc: 0.5689
+Train Acc: 0.6800
+Val Acc: 0.5537
+Train Acc: 0.6900
+Val Acc: 0.5466
+Train Acc: 0.6860
+Val Acc: 0.5718
+Train Acc: 0.6999
+Val Acc: 0.5637
+Train Acc: 0.7095
+Val Acc: 0.5576
+Train Acc: 0.6975
+Val Acc: 0.5647
+Train Acc: 0.7075
+Val Acc: 0.5880
+Train Acc: 0.7147
+Val Acc: 0.5632
+Train Acc: 0.7097
+Val Acc: 0.5846
+Train Acc: 0.7100
+Val Acc: 0.5773
+Train Acc: 0.7381
+Val Acc: 0.5892
+Train Acc: 0.7341
+Val Acc: 0.5818
+Train Acc: 0.7362
+Val Acc: 0.5935
+Train Acc: 0.7317
+Val Acc: 0.5630
+Train Acc: 0.7344
+Val Acc: 0.5828
+Train Acc: 0.7326
+Val Acc: 0.5808
+Train Acc: 0.7541
+Val Acc: 0.5870
+Train Acc: 0.7509
+Val Acc: 0.5835
+Train Acc: 0.7578
+Val Acc: 0.5823
+
+Validation:
+Val_bal_acc: [0.29720419964594585, 0.4336122982377223, 0.48416588938633837, 0.5098718660070157, 0.5229827470612803, 0.48457595764908545, 0.19144581125319732, 0.31990448621755335, 0.347290870113722, 0.3775261353051734, 0.42601003012815547, 0.42024117131542377, 0.3958166725360765, 0.4457934274263281, 0.4819289307709573, 0.4773855292195463, 0.4963118802816784, 0.4984635750788397, 0.5188365190619194, 0.5217482477374572, 0.5368571476117042, 0.5227965190373657, 0.5198168872095724, 0.5334549884878733, 0.5376535720176728, 0.5492324269998661, 0.5431148104009702, 0.5319956717941805, 0.5556067319700242, 0.5647576991207148, 0.5693032696770366, 0.5543303684853041, 0.5484601461004835, 0.5739380077598534, 0.5642930665511545, 0.5588611214632682, 0.56581055280061, 0.5888632991145619, 0.5662153298026018, 0.5853520308551875, 0.579718233839101, 0.5893309534555098, 0.5814133786522327, 0.5963441836270291, 0.5661558940312984, 0.5840062657721855, 0.5819999586680128, 0.5891280305057235, 0.5847871116144612, 0.5831626085935249]
+Val_acc: [tensor(0.2957, device='cuda:0', dtype=torch.float64), tensor(0.4329, device='cuda:0', dtype=torch.float64), tensor(0.4822, device='cuda:0', dtype=torch.float64), tensor(0.5064, device='cuda:0', dtype=torch.float64), tensor(0.5212, device='cuda:0', dtype=torch.float64), tensor(0.4839, device='cuda:0', dtype=torch.float64), tensor(0.1921, device='cuda:0', dtype=torch.float64), tensor(0.3207, device='cuda:0', dtype=torch.float64), tensor(0.3460, device='cuda:0', dtype=torch.float64), tensor(0.3773, device='cuda:0', dtype=torch.float64), tensor(0.4239, device='cuda:0', dtype=torch.float64), tensor(0.4196, device='cuda:0', dtype=torch.float64), tensor(0.3940, device='cuda:0', dtype=torch.float64), tensor(0.4455, device='cuda:0', dtype=torch.float64), tensor(0.4803, device='cuda:0', dtype=torch.float64), tensor(0.4776, device='cuda:0', dtype=torch.float64), tensor(0.4955, device='cuda:0', dtype=torch.float64), tensor(0.4984, device='cuda:0', dtype=torch.float64), tensor(0.5186, device='cuda:0', dtype=torch.float64), tensor(0.5211, device='cuda:0', dtype=torch.float64), tensor(0.5354, device='cuda:0', dtype=torch.float64), tensor(0.5207, device='cuda:0', dtype=torch.float64), tensor(0.5166, device='cuda:0', dtype=torch.float64), tensor(0.5323, device='cuda:0', dtype=torch.float64), tensor(0.5388, device='cuda:0', dtype=torch.float64), tensor(0.5459, device='cuda:0', dtype=torch.float64), tensor(0.5407, device='cuda:0', dtype=torch.float64), tensor(0.5312, device='cuda:0', dtype=torch.float64), tensor(0.5540, device='cuda:0', dtype=torch.float64), tensor(0.5627, device='cuda:0', dtype=torch.float64), tensor(0.5689, device='cuda:0', dtype=torch.float64), tensor(0.5537, device='cuda:0', dtype=torch.float64), tensor(0.5466, device='cuda:0', dtype=torch.float64), tensor(0.5718, device='cuda:0', dtype=torch.float64), tensor(0.5637, device='cuda:0', dtype=torch.float64), tensor(0.5576, device='cuda:0', dtype=torch.float64), tensor(0.5647, device='cuda:0', dtype=torch.float64), tensor(0.5880, device='cuda:0', dtype=torch.float64), tensor(0.5632, device='cuda:0', dtype=torch.float64), tensor(0.5846, device='cuda:0', dtype=torch.float64), tensor(0.5773, device='cuda:0', dtype=torch.float64), tensor(0.5892, device='cuda:0', dtype=torch.float64), tensor(0.5818, device='cuda:0', dtype=torch.float64), tensor(0.5935, device='cuda:0', dtype=torch.float64), tensor(0.5630, device='cuda:0', dtype=torch.float64), tensor(0.5828, device='cuda:0', dtype=torch.float64), tensor(0.5808, device='cuda:0', dtype=torch.float64), tensor(0.5870, device='cuda:0', dtype=torch.float64), tensor(0.5835, device='cuda:0', dtype=torch.float64), tensor(0.5823, device='cuda:0', dtype=torch.float64)]
+Val_loss: [2.977320049728325, 2.297435318720024, 2.0321086433722226, 1.9254597497574824, 1.8521297131071923, 2.203147019441267, 3.4712670904461747, 2.893480190952605, 2.7332161951361336, 2.576529248731071, 2.3488217872491286, 2.3464756183452264, 2.547183859356527, 2.312888882043529, 2.091792534168811, 2.1188958838637615, 2.05000196920414, 2.0407671707845942, 1.9767566883048762, 1.9306270630479188, 1.8811728228931597, 1.9269106978994837, 1.9426565505268454, 1.8949221576727004, 1.8668357686087884, 1.8156207831595577, 1.8548115638895961, 1.885448606252094, 1.855828046325249, 1.7581939637239201, 1.748657727216055, 1.7865615509113526, 1.840909099019228, 1.778464783568155, 1.7511604224166277, 1.9151295949394718, 1.8021865063756808, 1.6979117504185053, 1.7769250371980438, 1.705911593608787, 1.7287237167687592, 1.6817487886044993, 1.713712084008407, 1.7046474082945806, 1.852461535641766, 1.749505651997088, 1.749743934166526, 1.693847530991775, 1.7712669838419197, 1.7290460550665732]
+Training:
+Train_bal_acc: [0.10021264367816098, 0.30755172413793086, 0.41173563218390796, 0.4900689655172416, 0.5212068965517244, 0.55516091954023, 0.19899425287356315, 0.23764942528735641, 0.31696551724137906, 0.36355747126436777, 0.40920114942528735, 0.4349885057471265, 0.46958045977011464, 0.49109770114942597, 0.5116206896551726, 0.5174827586206895, 0.5268045977011496, 0.5458045977011496, 0.560683908045977, 0.5860402298850577, 0.5793620689655176, 0.6067183908045977, 0.6115402298850576, 0.6172931034482761, 0.6152241379310345, 0.6401091954022992, 0.6411206896551728, 0.6496264367816099, 0.6487586206896552, 0.6691436781609198, 0.6813505747126435, 0.6799022988505743, 0.6899540229885059, 0.6859252873563224, 0.6998045977011497, 0.709488505747127, 0.6975057471264375, 0.7074367816091959, 0.7146609195402297, 0.7096954022988506, 0.7100000000000004, 0.7380402298850575, 0.734051724137931, 0.7362241379310344, 0.7317126436781609, 0.7343793103448277, 0.7325919540229883, 0.7540287356321843, 0.7509080459770113, 0.7576954022988511]
+Train_acc: [tensor(0.1003, device='cuda:0', dtype=torch.float64), tensor(0.3076, device='cuda:0', dtype=torch.float64), tensor(0.4117, device='cuda:0', dtype=torch.float64), tensor(0.4902, device='cuda:0', dtype=torch.float64), tensor(0.5214, device='cuda:0', dtype=torch.float64), tensor(0.5552, device='cuda:0', dtype=torch.float64), tensor(0.1990, device='cuda:0', dtype=torch.float64), tensor(0.2377, device='cuda:0', dtype=torch.float64), tensor(0.3170, device='cuda:0', dtype=torch.float64), tensor(0.3637, device='cuda:0', dtype=torch.float64), tensor(0.4092, device='cuda:0', dtype=torch.float64), tensor(0.4351, device='cuda:0', dtype=torch.float64), tensor(0.4696, device='cuda:0', dtype=torch.float64), tensor(0.4912, device='cuda:0', dtype=torch.float64), tensor(0.5117, device='cuda:0', dtype=torch.float64), tensor(0.5175, device='cuda:0', dtype=torch.float64), tensor(0.5269, device='cuda:0', dtype=torch.float64), tensor(0.5459, device='cuda:0', dtype=torch.float64), tensor(0.5607, device='cuda:0', dtype=torch.float64), tensor(0.5861, device='cuda:0', dtype=torch.float64), tensor(0.5794, device='cuda:0', dtype=torch.float64), tensor(0.6068, device='cuda:0', dtype=torch.float64), tensor(0.6116, device='cuda:0', dtype=torch.float64), tensor(0.6173, device='cuda:0', dtype=torch.float64), tensor(0.6153, device='cuda:0', dtype=torch.float64), tensor(0.6401, device='cuda:0', dtype=torch.float64), tensor(0.6411, device='cuda:0', dtype=torch.float64), tensor(0.6496, device='cuda:0', dtype=torch.float64), tensor(0.6488, device='cuda:0', dtype=torch.float64), tensor(0.6692, device='cuda:0', dtype=torch.float64), tensor(0.6813, device='cuda:0', dtype=torch.float64), tensor(0.6800, device='cuda:0', dtype=torch.float64), tensor(0.6900, device='cuda:0', dtype=torch.float64), tensor(0.6860, device='cuda:0', dtype=torch.float64), tensor(0.6999, device='cuda:0', dtype=torch.float64), tensor(0.7095, device='cuda:0', dtype=torch.float64), tensor(0.6975, device='cuda:0', dtype=torch.float64), tensor(0.7075, device='cuda:0', dtype=torch.float64), tensor(0.7147, device='cuda:0', dtype=torch.float64), tensor(0.7097, device='cuda:0', dtype=torch.float64), tensor(0.7100, device='cuda:0', dtype=torch.float64), tensor(0.7381, device='cuda:0', dtype=torch.float64), tensor(0.7341, device='cuda:0', dtype=torch.float64), tensor(0.7362, device='cuda:0', dtype=torch.float64), tensor(0.7317, device='cuda:0', dtype=torch.float64), tensor(0.7344, device='cuda:0', dtype=torch.float64), tensor(0.7326, device='cuda:0', dtype=torch.float64), tensor(0.7541, device='cuda:0', dtype=torch.float64), tensor(0.7509, device='cuda:0', dtype=torch.float64), tensor(0.7578, device='cuda:0', dtype=torch.float64)]
+Train_loss: [4.422470678836057, 2.8336336995348517, 2.2985856626126857, 1.974897793900939, 1.8134234679473173, 1.6973897836826466, 3.5656763039551698, 3.243452703789707, 2.8309645981322458, 2.578307000167536, 2.352794117556837, 2.2434096125153093, 2.0962997579876883, 1.995669014341719, 1.8995170516095878, 1.8682983474489605, 1.8351274873958177, 1.7586293601576073, 1.709462801973383, 1.6088897700225429, 1.600679047870604, 1.5106224794963776, 1.4781041942837638, 1.4967475365828704, 1.4500736103958394, 1.3700497399817955, 1.3522720675409576, 1.3415425877034923, 1.3378856729518425, 1.2708611563917076, 1.2450955593470616, 1.199379632263769, 1.2085048517943782, 1.2167545402093771, 1.1649048543191172, 1.1258286600475673, 1.1503122373147532, 1.1293557279699438, 1.0979746252765725, 1.1006895811668347, 1.0816600746737746, 1.021667101520835, 1.0260388669189628, 1.0131153709537633, 1.007210212108649, 1.0196570056177674, 1.0248843078260068, 0.9627988154107744, 0.9565029631843955, 0.9050700526496829]
+
+
+__________________________________________
+
+
+traced_optimizer = nni.trace(optim.SGD)(model.parameters(), lr=0.001, momentum=0.9)
+# Operation types to be pruned and operation partial names to be pruned in vgg16
+#Prune 10% of the filters 
+config_list = [{'op_types': ['Conv2d','Linear'], 
+'sparsity_per_layer': 0.2}]
+#criterion (Callable[[Tensor, Tensor], Tensor]) – The criterion function used in trainer. Take model output and target value as input, and return the loss.
+criterion = nn.CrossEntropyLoss()
+lr_scheduler = nni.trace(torch.optim.lr_scheduler.StepLR)(traced_optimizer, step_size=7, gamma=0.1)
+evaluator = TorchEvaluator(training_func=training_model, optimizers=traced_optimizer,criterion=criterion, lr_schedulers=lr_scheduler)
+# warm_up_step – The total optimizer.step() number before start pruning for warm up. Make sure warm_up_step is smaller than cool_down_beginning_step.
+# cool_down_beginning_step – The number of steps at which sparsity stops growing, note that the sparsity stop growing doesn’t mean masks not changed.
+warm_up_step = len(train_ds) // BATCH_SIZE * 6
+cool_down_begin_step = len(train_ds) // BATCH_SIZE * 8
+pruner = MovementPruner(model, config_list, evaluator, warm_up_step=warm_up_step, cool_down_beginning_step=cool_down_begin_step, training_epochs=50,  movement_mode='hard')
+
+_, masks = pruner.compress()
+
+Train Acc: 0.0961
+Val Acc: 0.2855
+Train Acc: 0.3048
+Val Acc: 0.4139
+Train Acc: 0.4206
+Val Acc: 0.4686
+Train Acc: 0.4960
+Val Acc: 0.5067
+Train Acc: 0.5285
+Val Acc: 0.5364
+Train Acc: 0.5659
+Val Acc: 0.5330
+Train Acc: 0.3937
+Val Acc: 0.3417
+Train Acc: 0.4556
+Val Acc: 0.4610
+Train Acc: 0.5354
+Val Acc: 0.4793
+Train Acc: 0.5661
+Val Acc: 0.5166
+Train Acc: 0.5933
+Val Acc: 0.5526
+Train Acc: 0.6013
+Val Acc: 0.5538
+Train Acc: 0.6175
+Val Acc: 0.5606
+Train Acc: 0.6456
+Val Acc: 0.5450
+Train Acc: 0.6560
+Val Acc: 0.5727
+Train Acc: 0.6705
+Val Acc: 0.5647
+Train Acc: 0.6695
+Val Acc: 0.5590
+Train Acc: 0.6823
+Val Acc: 0.5918
+Train Acc: 0.6897
+Val Acc: 0.5661
+Train Acc: 0.7070
+Val Acc: 0.5880

@@ -1,0 +1,9 @@
+
+Que hacer? multiples datasets -> 1/2 entrenamientos por dia?
+TransTailor presentarlo?
+Problema sparsity for each layer (Mostrar ejemplo TransTailor)
+Cambiar titulo tfg
+
+
+
+https://nni.readthedocs.io/en/stable/reference/compression/pruner.html#reference-compression-pruner--page-root
