@@ -1,0 +1,546 @@
+Dataset: cub2011
+Norm L1
+Amount: 0.5
+Files already downloaded and verified
+Files already downloaded and verified
+Current sparsity
+1
+Epoch 0/9
+----------
+train Loss: 4.4473 Acc: 0.1006 Balanced Acc: 0.1006
+val Loss: 2.9190 Acc: 0.3120 Balanced Acc: 0.3121
+
+Epoch 1/9
+----------
+train Loss: 2.7667 Acc: 0.3260 Balanced Acc: 0.3260
+val Loss: 2.2689 Acc: 0.4308 Balanced Acc: 0.4345
+
+Epoch 2/9
+----------
+train Loss: 2.2535 Acc: 0.4273 Balanced Acc: 0.4272
+val Loss: 2.0403 Acc: 0.4770 Balanced Acc: 0.4793
+
+Epoch 3/9
+----------
+train Loss: 1.9700 Acc: 0.4925 Balanced Acc: 0.4924
+val Loss: 1.9088 Acc: 0.5133 Balanced Acc: 0.5150
+
+Epoch 4/9
+----------
+train Loss: 1.8046 Acc: 0.5300 Balanced Acc: 0.5299
+val Loss: 1.8294 Acc: 0.5323 Balanced Acc: 0.5347
+
+Epoch 5/9
+----------
+train Loss: 1.6364 Acc: 0.5679 Balanced Acc: 0.5678
+val Loss: 1.8175 Acc: 0.5330 Balanced Acc: 0.5346
+
+Epoch 6/9
+----------
+train Loss: 1.5348 Acc: 0.5989 Balanced Acc: 0.5989
+val Loss: 1.7026 Acc: 0.5609 Balanced Acc: 0.5638
+
+Epoch 7/9
+----------
+train Loss: 1.2247 Acc: 0.6717 Balanced Acc: 0.6716
+val Loss: 1.5524 Acc: 0.6055 Balanced Acc: 0.6092
+
+Epoch 8/9
+----------
+train Loss: 1.1393 Acc: 0.6975 Balanced Acc: 0.6975
+val Loss: 1.4793 Acc: 0.6224 Balanced Acc: 0.6250
+
+Epoch 9/9
+----------
+train Loss: 1.0985 Acc: 0.7095 Balanced Acc: 0.7095
+val Loss: 1.5094 Acc: 0.6179 Balanced Acc: 0.6212
+
+Training complete in 20m 30s
+Best val Balanced Acc: 0.624961
+Validation:
+Val_bal_acc: [0.3120884730313043, 0.43449758129301264, 0.47933995316124645, 0.5149855608348269, 0.5346977789899356, 0.534647919287606, 0.5637870728940524, 0.6091599340620684, 0.6249613181138077, 0.6211803978984797]
+Val_acc: [tensor(0.3120, device='cuda:0', dtype=torch.float64), tensor(0.4308, device='cuda:0', dtype=torch.float64), tensor(0.4770, device='cuda:0', dtype=torch.float64), tensor(0.5133, device='cuda:0', dtype=torch.float64), tensor(0.5323, device='cuda:0', dtype=torch.float64), tensor(0.5330, device='cuda:0', dtype=torch.float64), tensor(0.5609, device='cuda:0', dtype=torch.float64), tensor(0.6055, device='cuda:0', dtype=torch.float64), tensor(0.6224, device='cuda:0', dtype=torch.float64), tensor(0.6179, device='cuda:0', dtype=torch.float64)]
+Val_loss: [2.9189896077421724, 2.268875723754203, 2.0402833275602403, 1.9088024326880142, 1.8294470289147924, 1.8174658995231021, 1.7025566191448191, 1.5524256803843741, 1.4793096777896533, 1.5093735324789173]
+Training:
+Train_bal_acc: [0.1005977011494253, 0.32599999999999985, 0.42720114942528736, 0.49240804597701143, 0.5299425287356322, 0.5678448275862068, 0.5989310344827584, 0.671637931034483, 0.6975344827586204, 0.7095000000000004]
+Train_acc: [tensor(0.1006, device='cuda:0', dtype=torch.float64), tensor(0.3260, device='cuda:0', dtype=torch.float64), tensor(0.4273, device='cuda:0', dtype=torch.float64), tensor(0.4925, device='cuda:0', dtype=torch.float64), tensor(0.5300, device='cuda:0', dtype=torch.float64), tensor(0.5679, device='cuda:0', dtype=torch.float64), tensor(0.5989, device='cuda:0', dtype=torch.float64), tensor(0.6717, device='cuda:0', dtype=torch.float64), tensor(0.6975, device='cuda:0', dtype=torch.float64), tensor(0.7095, device='cuda:0', dtype=torch.float64)]
+Train_loss: [4.44730507647311, 2.7666824690532716, 2.2535111710831925, 1.9700074778185472, 1.804598781797621, 1.6363563307691185, 1.5348449778787525, 1.2246857850122819, 1.1392825334359298, 1.0985451483273052]
+Current sparsity
+0.8705505632961241
+Epoch 0/9
+----------
+train Loss: 5.1164 Acc: 0.0237 Balanced Acc: 0.0237
+val Loss: 4.2356 Acc: 0.1217 Balanced Acc: 0.1223
+
+Epoch 1/9
+----------
+train Loss: 3.6035 Acc: 0.1805 Balanced Acc: 0.1805
+val Loss: 2.7768 Acc: 0.3293 Balanced Acc: 0.3319
+
+Epoch 2/9
+----------
+train Loss: 2.7001 Acc: 0.3347 Balanced Acc: 0.3346
+val Loss: 2.5424 Acc: 0.3652 Balanced Acc: 0.3647
+
+Epoch 3/9
+----------
+train Loss: 2.3620 Acc: 0.3987 Balanced Acc: 0.3987
+val Loss: 2.1294 Acc: 0.4613 Balanced Acc: 0.4628
+
+Epoch 4/9
+----------
+train Loss: 2.0632 Acc: 0.4671 Balanced Acc: 0.4671
+val Loss: 1.9954 Acc: 0.4928 Balanced Acc: 0.4954
+
+Epoch 5/9
+----------
+train Loss: 1.8897 Acc: 0.5087 Balanced Acc: 0.5086
+val Loss: 1.9477 Acc: 0.5059 Balanced Acc: 0.5076
+
+Epoch 6/9
+----------
+train Loss: 1.7557 Acc: 0.5384 Balanced Acc: 0.5384
+val Loss: 1.8116 Acc: 0.5425 Balanced Acc: 0.5445
+
+Epoch 7/9
+----------
+train Loss: 1.4087 Acc: 0.6265 Balanced Acc: 0.6264
+val Loss: 1.6233 Acc: 0.5956 Balanced Acc: 0.5970
+
+Epoch 8/9
+----------
+train Loss: 1.3190 Acc: 0.6471 Balanced Acc: 0.6471
+val Loss: 1.5531 Acc: 0.5996 Balanced Acc: 0.6017
+
+Epoch 9/9
+----------
+train Loss: 1.2853 Acc: 0.6570 Balanced Acc: 0.6569
+val Loss: 1.5612 Acc: 0.6017 Balanced Acc: 0.6042
+
+Training complete in 20m 30s
+Best val Balanced Acc: 0.604160
+Validation:
+Val_bal_acc: [0.12225307568756244, 0.3318680680333604, 0.3647275389389334, 0.4628154766324304, 0.49543237861355144, 0.5076499999732854, 0.5444711909874264, 0.5969898677378161, 0.6017120406714231, 0.6041604683035677]
+Val_acc: [tensor(0.1217, device='cuda:0', dtype=torch.float64), tensor(0.3293, device='cuda:0', dtype=torch.float64), tensor(0.3652, device='cuda:0', dtype=torch.float64), tensor(0.4613, device='cuda:0', dtype=torch.float64), tensor(0.4928, device='cuda:0', dtype=torch.float64), tensor(0.5059, device='cuda:0', dtype=torch.float64), tensor(0.5425, device='cuda:0', dtype=torch.float64), tensor(0.5956, device='cuda:0', dtype=torch.float64), tensor(0.5996, device='cuda:0', dtype=torch.float64), tensor(0.6017, device='cuda:0', dtype=torch.float64)]
+Val_loss: [4.235627979585373, 2.7767508129518856, 2.542425296616875, 2.1293804620025814, 1.995445688915769, 1.9477208782917144, 1.8115773624202065, 1.6233008817265187, 1.5531218917689984, 1.5612110244370625]
+Training:
+Train_bal_acc: [0.02369540229885057, 0.18047701149425294, 0.3345747126436783, 0.3986551724137928, 0.4670632183908045, 0.5086034482758622, 0.5383505747126438, 0.626419540229885, 0.6470574712643682, 0.6569195402298846]
+Train_acc: [tensor(0.0237, device='cuda:0', dtype=torch.float64), tensor(0.1805, device='cuda:0', dtype=torch.float64), tensor(0.3347, device='cuda:0', dtype=torch.float64), tensor(0.3987, device='cuda:0', dtype=torch.float64), tensor(0.4671, device='cuda:0', dtype=torch.float64), tensor(0.5087, device='cuda:0', dtype=torch.float64), tensor(0.5384, device='cuda:0', dtype=torch.float64), tensor(0.6265, device='cuda:0', dtype=torch.float64), tensor(0.6471, device='cuda:0', dtype=torch.float64), tensor(0.6570, device='cuda:0', dtype=torch.float64)]
+Train_loss: [5.116418179488795, 3.6034806933767367, 2.7001117811148907, 2.361970512000648, 2.0632346944487567, 1.8897086377139087, 1.755704345964057, 1.4086879324348203, 1.3190166272041517, 1.285254495458918]
+Current sparsity
+0.757858283255199
+Epoch 0/9
+----------
+train Loss: 5.1093 Acc: 0.0252 Balanced Acc: 0.0252
+val Loss: 4.2083 Acc: 0.1208 Balanced Acc: 0.1205
+
+Epoch 1/9
+----------
+train Loss: 3.5995 Acc: 0.1827 Balanced Acc: 0.1826
+val Loss: 2.8223 Acc: 0.3312 Balanced Acc: 0.3340
+
+Epoch 2/9
+----------
+train Loss: 2.7315 Acc: 0.3273 Balanced Acc: 0.3273
+val Loss: 2.3841 Acc: 0.4199 Balanced Acc: 0.4225
+
+Epoch 3/9
+----------
+train Loss: 2.3104 Acc: 0.4214 Balanced Acc: 0.4213
+val Loss: 2.1964 Acc: 0.4612 Balanced Acc: 0.4621
+
+Epoch 4/9
+----------
+train Loss: 2.0815 Acc: 0.4721 Balanced Acc: 0.4721
+val Loss: 2.1111 Acc: 0.4669 Balanced Acc: 0.4691
+
+Epoch 5/9
+----------
+train Loss: 1.8963 Acc: 0.5077 Balanced Acc: 0.5076
+val Loss: 1.8693 Acc: 0.5257 Balanced Acc: 0.5276
+
+Epoch 6/9
+----------
+train Loss: 1.7483 Acc: 0.5412 Balanced Acc: 0.5412
+val Loss: 1.9207 Acc: 0.5079 Balanced Acc: 0.5098
+
+Epoch 7/9
+----------
+train Loss: 1.4258 Acc: 0.6186 Balanced Acc: 0.6186
+val Loss: 1.6286 Acc: 0.5820 Balanced Acc: 0.5843
+
+Epoch 8/9
+----------
+train Loss: 1.3177 Acc: 0.6537 Balanced Acc: 0.6536
+val Loss: 1.5921 Acc: 0.5875 Balanced Acc: 0.5892
+
+Epoch 9/9
+----------
+train Loss: 1.2749 Acc: 0.6577 Balanced Acc: 0.6576
+val Loss: 1.5846 Acc: 0.5954 Balanced Acc: 0.5979
+
+Training complete in 20m 31s
+Best val Balanced Acc: 0.597868
+Validation:
+Val_bal_acc: [0.12051647267164523, 0.3339682626810578, 0.4225346688397859, 0.46212088891977254, 0.46912796053834094, 0.5275809575093682, 0.5098367476144442, 0.5843380192224783, 0.5892281446441081, 0.5978680613540552]
+Val_acc: [tensor(0.1208, device='cuda:0', dtype=torch.float64), tensor(0.3312, device='cuda:0', dtype=torch.float64), tensor(0.4199, device='cuda:0', dtype=torch.float64), tensor(0.4612, device='cuda:0', dtype=torch.float64), tensor(0.4669, device='cuda:0', dtype=torch.float64), tensor(0.5257, device='cuda:0', dtype=torch.float64), tensor(0.5079, device='cuda:0', dtype=torch.float64), tensor(0.5820, device='cuda:0', dtype=torch.float64), tensor(0.5875, device='cuda:0', dtype=torch.float64), tensor(0.5954, device='cuda:0', dtype=torch.float64)]
+Val_loss: [4.208267687928236, 2.8223352288228707, 2.3840591131426936, 2.1964305100623682, 2.1111028384536885, 1.869346455043046, 1.9206560534528918, 1.6285728107125832, 1.5920915902554629, 1.5846490292126119]
+Training:
+Train_bal_acc: [0.02518965517241378, 0.1826494252873564, 0.32732758620689667, 0.4213448275862071, 0.47210344827586226, 0.5076206896551725, 0.5412126436781611, 0.6185747126436782, 0.6536436781609196, 0.657551724137931]
+Train_acc: [tensor(0.0252, device='cuda:0', dtype=torch.float64), tensor(0.1827, device='cuda:0', dtype=torch.float64), tensor(0.3273, device='cuda:0', dtype=torch.float64), tensor(0.4214, device='cuda:0', dtype=torch.float64), tensor(0.4721, device='cuda:0', dtype=torch.float64), tensor(0.5077, device='cuda:0', dtype=torch.float64), tensor(0.5412, device='cuda:0', dtype=torch.float64), tensor(0.6186, device='cuda:0', dtype=torch.float64), tensor(0.6537, device='cuda:0', dtype=torch.float64), tensor(0.6577, device='cuda:0', dtype=torch.float64)]
+Train_loss: [5.109342774431587, 3.599480268594858, 2.7314727999267476, 2.310373806420429, 2.08153617807655, 1.89629322841321, 1.748255663089924, 1.4257825934015833, 1.3176529491230133, 1.2748611192922812]
+Current sparsity
+0.6597539553864471
+Epoch 0/9
+----------
+train Loss: 5.1297 Acc: 0.0237 Balanced Acc: 0.0237
+val Loss: 4.2971 Acc: 0.0989 Balanced Acc: 0.1011
+
+Epoch 1/9
+----------
+train Loss: 3.6667 Acc: 0.1722 Balanced Acc: 0.1721
+val Loss: 2.8791 Acc: 0.3010 Balanced Acc: 0.3028
+
+Epoch 2/9
+----------
+train Loss: 2.7480 Acc: 0.3283 Balanced Acc: 0.3283
+val Loss: 2.4218 Acc: 0.3904 Balanced Acc: 0.3895
+
+Epoch 3/9
+----------
+train Loss: 2.3486 Acc: 0.4102 Balanced Acc: 0.4102
+val Loss: 2.1781 Acc: 0.4462 Balanced Acc: 0.4504
+
+Epoch 4/9
+----------
+train Loss: 2.0719 Acc: 0.4700 Balanced Acc: 0.4699
+val Loss: 1.9960 Acc: 0.4891 Balanced Acc: 0.4892
+
+Epoch 5/9
+----------
+train Loss: 1.8975 Acc: 0.5038 Balanced Acc: 0.5037
+val Loss: 1.9091 Acc: 0.5173 Balanced Acc: 0.5202
+
+Epoch 6/9
+----------
+train Loss: 1.7486 Acc: 0.5475 Balanced Acc: 0.5475
+val Loss: 1.8533 Acc: 0.5257 Balanced Acc: 0.5282
+
+Epoch 7/9
+----------
+train Loss: 1.4188 Acc: 0.6238 Balanced Acc: 0.6237
+val Loss: 1.6209 Acc: 0.5918 Balanced Acc: 0.5954
+
+Epoch 8/9
+----------
+train Loss: 1.2915 Acc: 0.6568 Balanced Acc: 0.6569
+val Loss: 1.5670 Acc: 0.5911 Balanced Acc: 0.5940
+
+Epoch 9/9
+----------
+train Loss: 1.2736 Acc: 0.6578 Balanced Acc: 0.6578
+val Loss: 1.5888 Acc: 0.5968 Balanced Acc: 0.5983
+
+Training complete in 20m 30s
+Best val Balanced Acc: 0.598288
+Validation:
+Val_bal_acc: [0.10106963991174524, 0.3028143286116142, 0.38949912697444844, 0.45043916893271807, 0.48916470958426284, 0.5201870188964207, 0.5281634631650418, 0.5954032791325856, 0.5940309772036475, 0.5982878321254399]
+Val_acc: [tensor(0.0989, device='cuda:0', dtype=torch.float64), tensor(0.3010, device='cuda:0', dtype=torch.float64), tensor(0.3904, device='cuda:0', dtype=torch.float64), tensor(0.4462, device='cuda:0', dtype=torch.float64), tensor(0.4891, device='cuda:0', dtype=torch.float64), tensor(0.5173, device='cuda:0', dtype=torch.float64), tensor(0.5257, device='cuda:0', dtype=torch.float64), tensor(0.5918, device='cuda:0', dtype=torch.float64), tensor(0.5911, device='cuda:0', dtype=torch.float64), tensor(0.5968, device='cuda:0', dtype=torch.float64)]
+Val_loss: [4.297062338571282, 2.879100078955411, 2.4217831908236875, 2.1780964614894827, 1.9959812148669938, 1.909059244227648, 1.853306548304092, 1.6209096015348368, 1.5669967284748214, 1.5887729804763557]
+Training:
+Train_bal_acc: [0.02369540229885057, 0.17214942528735644, 0.32827011494252856, 0.4102298850574711, 0.46986206896551763, 0.5037298850574713, 0.5474999999999999, 0.6237126436781609, 0.6568563218390804, 0.6577528735632189]
+Train_acc: [tensor(0.0237, device='cuda:0', dtype=torch.float64), tensor(0.1722, device='cuda:0', dtype=torch.float64), tensor(0.3283, device='cuda:0', dtype=torch.float64), tensor(0.4102, device='cuda:0', dtype=torch.float64), tensor(0.4700, device='cuda:0', dtype=torch.float64), tensor(0.5038, device='cuda:0', dtype=torch.float64), tensor(0.5475, device='cuda:0', dtype=torch.float64), tensor(0.6238, device='cuda:0', dtype=torch.float64), tensor(0.6568, device='cuda:0', dtype=torch.float64), tensor(0.6578, device='cuda:0', dtype=torch.float64)]
+Train_loss: [5.129657447357992, 3.66666873892745, 2.748005263997111, 2.3485681136369627, 2.0718584205454333, 1.8975498966666353, 1.7486183699027753, 1.4187919008441476, 1.291469243036575, 1.2735717202728496]
+Current sparsity
+0.5743491774985174
+Epoch 0/9
+----------
+train Loss: 5.0937 Acc: 0.0235 Balanced Acc: 0.0235
+val Loss: 4.0663 Acc: 0.1289 Balanced Acc: 0.1277
+
+Epoch 1/9
+----------
+train Loss: 3.5842 Acc: 0.1892 Balanced Acc: 0.1892
+val Loss: 2.7939 Acc: 0.3284 Balanced Acc: 0.3327
+
+Epoch 2/9
+----------
+train Loss: 2.7163 Acc: 0.3308 Balanced Acc: 0.3308
+val Loss: 2.4584 Acc: 0.3945 Balanced Acc: 0.3994
+
+Epoch 3/9
+----------
+train Loss: 2.3023 Acc: 0.4201 Balanced Acc: 0.4200
+val Loss: 2.1540 Acc: 0.4581 Balanced Acc: 0.4589
+
+Epoch 4/9
+----------
+train Loss: 2.0888 Acc: 0.4633 Balanced Acc: 0.4632
+val Loss: 1.9843 Acc: 0.4941 Balanced Acc: 0.4971
+
+Epoch 5/9
+----------
+train Loss: 1.8714 Acc: 0.5092 Balanced Acc: 0.5091
+val Loss: 1.9215 Acc: 0.5105 Balanced Acc: 0.5139
+
+Epoch 6/9
+----------
+train Loss: 1.7495 Acc: 0.5452 Balanced Acc: 0.5451
+val Loss: 1.7699 Acc: 0.5526 Balanced Acc: 0.5555
+
+Epoch 7/9
+----------
+train Loss: 1.4004 Acc: 0.6296 Balanced Acc: 0.6297
+val Loss: 1.6120 Acc: 0.5841 Balanced Acc: 0.5864
+
+Epoch 8/9
+----------
+train Loss: 1.2979 Acc: 0.6512 Balanced Acc: 0.6511
+val Loss: 1.5562 Acc: 0.5989 Balanced Acc: 0.6002
+
+Epoch 9/9
+----------
+train Loss: 1.2851 Acc: 0.6627 Balanced Acc: 0.6626
+val Loss: 1.5709 Acc: 0.6029 Balanced Acc: 0.6055
+
+Training complete in 20m 14s
+Best val Balanced Acc: 0.605509
+Validation:
+Val_bal_acc: [0.12766948741804746, 0.3327214322073472, 0.39939334146145883, 0.4589435059279805, 0.49714041944827875, 0.5139392767986433, 0.5555137023986155, 0.5864106288149137, 0.6001950631454693, 0.6055090474017129]
+Val_acc: [tensor(0.1289, device='cuda:0', dtype=torch.float64), tensor(0.3284, device='cuda:0', dtype=torch.float64), tensor(0.3945, device='cuda:0', dtype=torch.float64), tensor(0.4581, device='cuda:0', dtype=torch.float64), tensor(0.4941, device='cuda:0', dtype=torch.float64), tensor(0.5105, device='cuda:0', dtype=torch.float64), tensor(0.5526, device='cuda:0', dtype=torch.float64), tensor(0.5841, device='cuda:0', dtype=torch.float64), tensor(0.5989, device='cuda:0', dtype=torch.float64), tensor(0.6029, device='cuda:0', dtype=torch.float64)]
+Val_loss: [4.066338103929387, 2.7938992527792856, 2.4584452143034774, 2.15396560863828, 1.9842536137829907, 1.9215477331778408, 1.7698532950684742, 1.6120454049976218, 1.5562059559174908, 1.5708954558933772]
+Training:
+Train_bal_acc: [0.023517241379310324, 0.18915517241379337, 0.33077586206896553, 0.4200287356321838, 0.4632068965517244, 0.5091379310344826, 0.5451264367816093, 0.6296666666666666, 0.6510862068965515, 0.662632183908046]
+Train_acc: [tensor(0.0235, device='cuda:0', dtype=torch.float64), tensor(0.1892, device='cuda:0', dtype=torch.float64), tensor(0.3308, device='cuda:0', dtype=torch.float64), tensor(0.4201, device='cuda:0', dtype=torch.float64), tensor(0.4633, device='cuda:0', dtype=torch.float64), tensor(0.5092, device='cuda:0', dtype=torch.float64), tensor(0.5452, device='cuda:0', dtype=torch.float64), tensor(0.6296, device='cuda:0', dtype=torch.float64), tensor(0.6512, device='cuda:0', dtype=torch.float64), tensor(0.6627, device='cuda:0', dtype=torch.float64)]
+Train_loss: [5.093659807930082, 3.584196037795888, 2.716268026952072, 2.3023197002557265, 2.088778502550529, 1.8713748920429218, 1.7495175601642927, 1.400383315485718, 1.2978699339860116, 1.2850675959964175]
+Dataset: cub2011
+Norm L2
+Amount: 0.5
+Files already downloaded and verified
+Files already downloaded and verified
+Current sparsity
+1
+Epoch 0/9
+----------
+train Loss: 4.4110 Acc: 0.0956 Balanced Acc: 0.0956
+val Loss: 2.9907 Acc: 0.2929 Balanced Acc: 0.2959
+
+Epoch 1/9
+----------
+train Loss: 2.8575 Acc: 0.3070 Balanced Acc: 0.3069
+val Loss: 2.3949 Acc: 0.4144 Balanced Acc: 0.4170
+
+Epoch 2/9
+----------
+train Loss: 2.2737 Acc: 0.4169 Balanced Acc: 0.4169
+val Loss: 2.0611 Acc: 0.4833 Balanced Acc: 0.4862
+
+Epoch 3/9
+----------
+train Loss: 1.9666 Acc: 0.4947 Balanced Acc: 0.4946
+val Loss: 1.8617 Acc: 0.5276 Balanced Acc: 0.5306
+
+Epoch 4/9
+----------
+train Loss: 1.7702 Acc: 0.5352 Balanced Acc: 0.5351
+val Loss: 1.8330 Acc: 0.5302 Balanced Acc: 0.5310
+
+Epoch 5/9
+----------
+train Loss: 1.6316 Acc: 0.5722 Balanced Acc: 0.5722
+val Loss: 1.8032 Acc: 0.5457 Balanced Acc: 0.5496
+
+Epoch 6/9
+----------
+train Loss: 1.4946 Acc: 0.6039 Balanced Acc: 0.6039
+val Loss: 1.7007 Acc: 0.5664 Balanced Acc: 0.5697
+
+Epoch 7/9
+----------
+train Loss: 1.2305 Acc: 0.6727 Balanced Acc: 0.6727
+val Loss: 1.5143 Acc: 0.6094 Balanced Acc: 0.6122
+
+Epoch 8/9
+----------
+train Loss: 1.1676 Acc: 0.6899 Balanced Acc: 0.6898
+val Loss: 1.5193 Acc: 0.6111 Balanced Acc: 0.6126
+
+Epoch 9/9
+----------
+train Loss: 1.0996 Acc: 0.7025 Balanced Acc: 0.7024
+val Loss: 1.4934 Acc: 0.6250 Balanced Acc: 0.6253
+
+Training complete in 20m 9s
+Best val Balanced Acc: 0.625306
+Validation:
+Val_bal_acc: [0.295867074302232, 0.4170465355279726, 0.4861809926960443, 0.5305582515051663, 0.5310025133055395, 0.5496376989726034, 0.5696569223391997, 0.6122455680149603, 0.6125930304268504, 0.6253055278923862]
+Val_acc: [tensor(0.2929, device='cuda:0', dtype=torch.float64), tensor(0.4144, device='cuda:0', dtype=torch.float64), tensor(0.4833, device='cuda:0', dtype=torch.float64), tensor(0.5276, device='cuda:0', dtype=torch.float64), tensor(0.5302, device='cuda:0', dtype=torch.float64), tensor(0.5457, device='cuda:0', dtype=torch.float64), tensor(0.5664, device='cuda:0', dtype=torch.float64), tensor(0.6094, device='cuda:0', dtype=torch.float64), tensor(0.6111, device='cuda:0', dtype=torch.float64), tensor(0.6250, device='cuda:0', dtype=torch.float64)]
+Val_loss: [2.9907460825007908, 2.39488866652626, 2.0610902083354197, 1.86172311767694, 1.8329968270934118, 1.803159217650124, 1.7006523808306724, 1.5143055935584144, 1.519331789021128, 1.4933899754197342]
+Training:
+Train_bal_acc: [0.09555172413793107, 0.3069195402298849, 0.41686781609195384, 0.49459195402298856, 0.5351379310344828, 0.5721896551724136, 0.6039195402298851, 0.6727011494252875, 0.6897758620689658, 0.7024425287356323]
+Train_acc: [tensor(0.0956, device='cuda:0', dtype=torch.float64), tensor(0.3070, device='cuda:0', dtype=torch.float64), tensor(0.4169, device='cuda:0', dtype=torch.float64), tensor(0.4947, device='cuda:0', dtype=torch.float64), tensor(0.5352, device='cuda:0', dtype=torch.float64), tensor(0.5722, device='cuda:0', dtype=torch.float64), tensor(0.6039, device='cuda:0', dtype=torch.float64), tensor(0.6727, device='cuda:0', dtype=torch.float64), tensor(0.6899, device='cuda:0', dtype=torch.float64), tensor(0.7025, device='cuda:0', dtype=torch.float64)]
+Train_loss: [4.411049582379875, 2.85748454400369, 2.2737248841826028, 1.9665544803117887, 1.7701553983373326, 1.631601622950287, 1.4945508953249769, 1.230471688984313, 1.1675565449205842, 1.0996005276580394]
+Current sparsity
+0.8705505632961241
+Epoch 0/9
+----------
+train Loss: 5.0499 Acc: 0.0312 Balanced Acc: 0.0312
+val Loss: 3.9938 Acc: 0.1360 Balanced Acc: 0.1354
+
+Epoch 1/9
+----------
+train Loss: 3.5319 Acc: 0.1885 Balanced Acc: 0.1885
+val Loss: 2.9025 Acc: 0.3112 Balanced Acc: 0.3136
+
+Epoch 2/9
+----------
+train Loss: 2.7283 Acc: 0.3307 Balanced Acc: 0.3306
+val Loss: 2.5026 Acc: 0.3857 Balanced Acc: 0.3879
+
+Epoch 3/9
+----------
+train Loss: 2.3729 Acc: 0.4011 Balanced Acc: 0.4010
+val Loss: 2.1603 Acc: 0.4541 Balanced Acc: 0.4557
+
+Epoch 4/9
+----------
+train Loss: 2.0827 Acc: 0.4585 Balanced Acc: 0.4584
+val Loss: 2.0027 Acc: 0.4915 Balanced Acc: 0.4926
+
+Epoch 5/9
+----------
+train Loss: 1.8826 Acc: 0.5172 Balanced Acc: 0.5171
+val Loss: 1.9360 Acc: 0.4964 Balanced Acc: 0.4971
+
+Epoch 6/9
+----------
+train Loss: 1.7316 Acc: 0.5506 Balanced Acc: 0.5505
+val Loss: 1.8611 Acc: 0.5207 Balanced Acc: 0.5229
+
+Epoch 7/9
+----------
+train Loss: 1.4412 Acc: 0.6198 Balanced Acc: 0.6198
+val Loss: 1.6250 Acc: 0.5837 Balanced Acc: 0.5867
+
+Epoch 8/9
+----------
+train Loss: 1.3558 Acc: 0.6398 Balanced Acc: 0.6398
+val Loss: 1.5774 Acc: 0.5979 Balanced Acc: 0.5993
+
+Epoch 9/9
+----------
+train Loss: 1.3026 Acc: 0.6532 Balanced Acc: 0.6531
+val Loss: 1.5692 Acc: 0.6013 Balanced Acc: 0.6038
+
+Training complete in 20m 31s
+Best val Balanced Acc: 0.603830
+Validation:
+Val_bal_acc: [0.1353765313845407, 0.3136145636527947, 0.38790316768869615, 0.4557468009135333, 0.4925793737520244, 0.4970855530640306, 0.5229405491650422, 0.5866903635575816, 0.5992968286159717, 0.6038296577162867]
+Val_acc: [tensor(0.1360, device='cuda:0', dtype=torch.float64), tensor(0.3112, device='cuda:0', dtype=torch.float64), tensor(0.3857, device='cuda:0', dtype=torch.float64), tensor(0.4541, device='cuda:0', dtype=torch.float64), tensor(0.4915, device='cuda:0', dtype=torch.float64), tensor(0.4964, device='cuda:0', dtype=torch.float64), tensor(0.5207, device='cuda:0', dtype=torch.float64), tensor(0.5837, device='cuda:0', dtype=torch.float64), tensor(0.5979, device='cuda:0', dtype=torch.float64), tensor(0.6013, device='cuda:0', dtype=torch.float64)]
+Val_loss: [3.9938140417486787, 2.902531381553726, 2.5026024105551326, 2.1602544733109372, 2.002721263163247, 1.9360373239908952, 1.8610802892232903, 1.6250318948373657, 1.5773550893058232, 1.5691761862890699]
+Training:
+Train_bal_acc: [0.03117816091954023, 0.18845402298850605, 0.3305919540229885, 0.40100574712643683, 0.4583793103448275, 0.5171494252873562, 0.5504827586206895, 0.6197643678160922, 0.6397528735632185, 0.6530689655172414]
+Train_acc: [tensor(0.0312, device='cuda:0', dtype=torch.float64), tensor(0.1885, device='cuda:0', dtype=torch.float64), tensor(0.3307, device='cuda:0', dtype=torch.float64), tensor(0.4011, device='cuda:0', dtype=torch.float64), tensor(0.4585, device='cuda:0', dtype=torch.float64), tensor(0.5172, device='cuda:0', dtype=torch.float64), tensor(0.5506, device='cuda:0', dtype=torch.float64), tensor(0.6198, device='cuda:0', dtype=torch.float64), tensor(0.6398, device='cuda:0', dtype=torch.float64), tensor(0.6532, device='cuda:0', dtype=torch.float64)]
+Train_loss: [5.049874275813391, 3.5318583003035537, 2.7282947580695827, 2.3728742994862793, 2.082678102913959, 1.8825838386037965, 1.7315571867588324, 1.4412393092234055, 1.3557731828213853, 1.302580896599674]
+Current sparsity
+0.757858283255199
+Epoch 0/9
+----------
+train Loss: 5.0448 Acc: 0.0309 Balanced Acc: 0.0308
+val Loss: 4.0630 Acc: 0.1479 Balanced Acc: 0.1481
+
+Epoch 1/9
+----------
+train Loss: 3.5551 Acc: 0.1805 Balanced Acc: 0.1805
+val Loss: 2.9478 Acc: 0.2834 Balanced Acc: 0.2860
+
+Epoch 2/9
+----------
+train Loss: 2.7354 Acc: 0.3200 Balanced Acc: 0.3200
+val Loss: 2.4376 Acc: 0.3970 Balanced Acc: 0.4002
+
+Epoch 3/9
+----------
+train Loss: 2.3509 Acc: 0.4026 Balanced Acc: 0.4025
+val Loss: 2.1400 Acc: 0.4588 Balanced Acc: 0.4605
+
+Epoch 4/9
+----------
+train Loss: 2.0610 Acc: 0.4738 Balanced Acc: 0.4737
+val Loss: 2.0154 Acc: 0.4895 Balanced Acc: 0.4916
+
+Epoch 5/9
+----------
+train Loss: 1.9047 Acc: 0.5055 Balanced Acc: 0.5055
+val Loss: 1.9905 Acc: 0.5012 Balanced Acc: 0.5012
+
+Epoch 6/9
+----------
+train Loss: 1.6975 Acc: 0.5566 Balanced Acc: 0.5565
+val Loss: 1.8771 Acc: 0.5261 Balanced Acc: 0.5290
+
+Epoch 7/9
+----------
+train Loss: 1.4131 Acc: 0.6296 Balanced Acc: 0.6296
+val Loss: 1.6316 Acc: 0.5873 Balanced Acc: 0.5885
+
+Epoch 8/9
+----------
+train Loss: 1.3428 Acc: 0.6483 Balanced Acc: 0.6483
+val Loss: 1.5836 Acc: 0.5897 Balanced Acc: 0.5909
+
+Epoch 9/9
+----------
+train Loss: 1.2358 Acc: 0.6708 Balanced Acc: 0.6708
+val Loss: 1.5816 Acc: 0.5972 Balanced Acc: 0.6007
+
+Training complete in 20m 30s
+Best val Balanced Acc: 0.600652
+Validation:
+Val_bal_acc: [0.14805507201210674, 0.28596346570421416, 0.4002457632081838, 0.46050344981405117, 0.4916010101148786, 0.5011847598373086, 0.5289997338890656, 0.5884995854020748, 0.5908793464200827, 0.6006523706930673]
+Val_acc: [tensor(0.1479, device='cuda:0', dtype=torch.float64), tensor(0.2834, device='cuda:0', dtype=torch.float64), tensor(0.3970, device='cuda:0', dtype=torch.float64), tensor(0.4588, device='cuda:0', dtype=torch.float64), tensor(0.4895, device='cuda:0', dtype=torch.float64), tensor(0.5012, device='cuda:0', dtype=torch.float64), tensor(0.5261, device='cuda:0', dtype=torch.float64), tensor(0.5873, device='cuda:0', dtype=torch.float64), tensor(0.5897, device='cuda:0', dtype=torch.float64), tensor(0.5972, device='cuda:0', dtype=torch.float64)]
+Val_loss: [4.063031604794498, 2.947811664117794, 2.4376189730930293, 2.140033356693641, 2.01535118482094, 1.9905460072378476, 1.8771171140162068, 1.6315501650777982, 1.583631510812441, 1.5815962892492497]
+Training:
+Train_bal_acc: [0.03083908045977012, 0.18047701149425294, 0.319971264367816, 0.40247701149425275, 0.4737298850574712, 0.5055, 0.5565459770114941, 0.6296149425287361, 0.6482873563218385, 0.6707873563218388]
+Train_acc: [tensor(0.0309, device='cuda:0', dtype=torch.float64), tensor(0.1805, device='cuda:0', dtype=torch.float64), tensor(0.3200, device='cuda:0', dtype=torch.float64), tensor(0.4026, device='cuda:0', dtype=torch.float64), tensor(0.4738, device='cuda:0', dtype=torch.float64), tensor(0.5055, device='cuda:0', dtype=torch.float64), tensor(0.5566, device='cuda:0', dtype=torch.float64), tensor(0.6296, device='cuda:0', dtype=torch.float64), tensor(0.6483, device='cuda:0', dtype=torch.float64), tensor(0.6708, device='cuda:0', dtype=torch.float64)]
+Train_loss: [5.044815294178558, 3.555100545749531, 2.735389374636554, 2.3509123248182062, 2.0609863233200345, 1.9046969147654507, 1.697537598070559, 1.4130844135144411, 1.3428114370620365, 1.235809738094265]
+Current sparsity
+0.6597539553864471
+Epoch 0/9
+----------
+train Loss: 5.0592 Acc: 0.0269 Balanced Acc: 0.0269
+val Loss: 4.0532 Acc: 0.1270 Balanced Acc: 0.1288
+
+Epoch 1/9
+----------
+train Loss: 3.6098 Acc: 0.1825 Balanced Acc: 0.1825
+val Loss: 2.8317 Acc: 0.3259 Balanced Acc: 0.3284
+
+Epoch 2/9
+----------
+train Loss: 2.7330 Acc: 0.3253 Balanced Acc: 0.3253
+val Loss: 2.3756 Acc: 0.4075 Balanced Acc: 0.4116
+
+Epoch 3/9
+----------
+train Loss: 2.3381 Acc: 0.4069 Balanced Acc: 0.4068
+val Loss: 2.1687 Acc: 0.4436 Balanced Acc: 0.4473
+
+Epoch 4/9
+----------
+train Loss: 2.0844 Acc: 0.4641 Balanced Acc: 0.4640
+val Loss: 1.9903 Acc: 0.4853 Balanced Acc: 0.4880
+
+Epoch 5/9
+----------
+train Loss: 1.8654 Acc: 0.5179 Balanced Acc: 0.5178
+val Loss: 1.9100 Acc: 0.5105 Balanced Acc: 0.5127
+
+Epoch 6/9
+----------
+train Loss: 1.7477 Acc: 0.5400 Balanced Acc: 0.5400
+val Loss: 1.8323 Acc: 0.5323 Balanced Acc: 0.5344
+
+Epoch 7/9
+----------
+

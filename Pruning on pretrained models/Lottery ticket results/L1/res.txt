@@ -1,0 +1,152 @@
+
+
+Dataset: pet
+Norm L1
+Amount: 0.5
+Current sparsity
+1
+
+
+Training complete in 2m 40s
+Best val Balanced Acc: 0.834723
+Validation:
+Val_bal_acc: [0.7619059691176653, 0.7607954357467851, 0.7858672217105805, 0.7952751017323837, 0.7866897614970624, 0.7996700663657192, 0.7928162848064887, 0.8220357567828237, 0.8277370837433553, 0.8347225581975132]
+Val_acc: [tensor(0.7629, device='cuda:0', dtype=torch.float64), tensor(0.7610, device='cuda:0', dtype=torch.float64), tensor(0.7860, device='cuda:0', dtype=torch.float64), tensor(0.7953, device='cuda:0', dtype=torch.float64), tensor(0.7866, device='cuda:0', dtype=torch.float64), tensor(0.7997, device='cuda:0', dtype=torch.float64), tensor(0.7926, device='cuda:0', dtype=torch.float64), tensor(0.8223, device='cuda:0', dtype=torch.float64), tensor(0.8283, device='cuda:0', dtype=torch.float64), tensor(0.8351, device='cuda:0', dtype=torch.float64)]
+Val_loss: [0.7882116953726847, 0.7664488080445282, 0.711931207331756, 0.6699469239453784, 0.6705892153935135, 0.6539413850255966, 0.7167096201520292, 0.5725395083264975, 0.5864430236601966, 0.5584555158569787]
+Training:
+Train_bal_acc: [0.5796851910561589, 0.7599353936047482, 0.8035228263454071, 0.8115025362606008, 0.823876879078492, 0.8481601763053377, 0.841667492272331, 0.8742003844019972, 0.8922098931776353, 0.8857435404612825]
+Train_acc: [tensor(0.5796, device='cuda:0', dtype=torch.float64), tensor(0.7598, device='cuda:0', dtype=torch.float64), tensor(0.8035, device='cuda:0', dtype=torch.float64), tensor(0.8114, device='cuda:0', dtype=torch.float64), tensor(0.8236, device='cuda:0', dtype=torch.float64), tensor(0.8481, device='cuda:0', dtype=torch.float64), tensor(0.8416, device='cuda:0', dtype=torch.float64), tensor(0.8742, device='cuda:0', dtype=torch.float64), tensor(0.8921, device='cuda:0', dtype=torch.float64), tensor(0.8856, device='cuda:0', dtype=torch.float64)]
+Train_loss: [1.5038608322972837, 0.7764436996501425, 0.6267462012560471, 0.6111749115197554, 0.5572791502527569, 0.48836205336062805, 0.5117579903291619, 0.3955349285317504, 0.34532229531070463, 0.359105268250341]
+Current sparsity
+0.8705505632961241
+
+Training complete in 2m 32s
+Best val Balanced Acc: 0.818462
+Validation:
+Val_bal_acc: [0.6910157969576975, 0.7139862676481298, 0.7359333638690261, 0.7655321077558008, 0.7351291554625935, 0.7722173866330011, 0.7605861115514274, 0.8003778200429753, 0.818462451761669, 0.8179950621120714]
+Val_acc: [tensor(0.6912, device='cuda:0', dtype=torch.float64), tensor(0.7141, device='cuda:0', dtype=torch.float64), tensor(0.7367, device='cuda:0', dtype=torch.float64), tensor(0.7664, device='cuda:0', dtype=torch.float64), tensor(0.7362, device='cuda:0', dtype=torch.float64), tensor(0.7719, device='cuda:0', dtype=torch.float64), tensor(0.7604, device='cuda:0', dtype=torch.float64), tensor(0.8008, device='cuda:0', dtype=torch.float64), tensor(0.8193, device='cuda:0', dtype=torch.float64), tensor(0.8185, device='cuda:0', dtype=torch.float64)]
+Val_loss: [0.9776938179348951, 0.9245553870687175, 0.847463490349553, 0.7511179032264662, 0.8378926217068635, 0.7362274536647209, 0.7810507943972024, 0.6724120557194478, 0.5991004819269238, 0.6141787454441218]
+Training:
+Train_bal_acc: [0.3901898342624149, 0.696683938337164, 0.7376017696582213, 0.7771663562389368, 0.7893436545049448, 0.8025491070249133, 0.8071755149577731, 0.8468396915977561, 0.8652371579790934, 0.8677783942300071]
+Train_acc: [tensor(0.3902, device='cuda:0', dtype=torch.float64), tensor(0.6965, device='cuda:0', dtype=torch.float64), tensor(0.7375, device='cuda:0', dtype=torch.float64), tensor(0.7772, device='cuda:0', dtype=torch.float64), tensor(0.7891, device='cuda:0', dtype=torch.float64), tensor(0.8024, device='cuda:0', dtype=torch.float64), tensor(0.8071, device='cuda:0', dtype=torch.float64), tensor(0.8467, device='cuda:0', dtype=torch.float64), tensor(0.8652, device='cuda:0', dtype=torch.float64), tensor(0.8677, device='cuda:0', dtype=torch.float64)]
+Train_loss: [2.1657918416935464, 0.9835627566213193, 0.837042948992356, 0.7149337807427282, 0.6664497485627299, 0.6525196944889815, 0.6097264169350914, 0.4918576590392901, 0.4460664045551549, 0.40913079530000684]
+Current sparsity
+0.757858283255199
+
+
+Training complete in 2m 36s
+Best val Balanced Acc: 0.804001
+Validation:
+Val_bal_acc: [0.6528566515957922, 0.7403476998490318, 0.7291135510817464, 0.7585136945512414, 0.7641998083633171, 0.7742427417489884, 0.7653391528831286, 0.802122311045132, 0.8040005023751777, 0.8032418019920295]
+Val_acc: [tensor(0.6522, device='cuda:0', dtype=torch.float64), tensor(0.7411, device='cuda:0', dtype=torch.float64), tensor(0.7304, device='cuda:0', dtype=torch.float64), tensor(0.7585, device='cuda:0', dtype=torch.float64), tensor(0.7642, device='cuda:0', dtype=torch.float64), tensor(0.7749, device='cuda:0', dtype=torch.float64), tensor(0.7661, device='cuda:0', dtype=torch.float64), tensor(0.8027, device='cuda:0', dtype=torch.float64), tensor(0.8046, device='cuda:0', dtype=torch.float64), tensor(0.8038, device='cuda:0', dtype=torch.float64)]
+Val_loss: [1.1327855302059997, 0.8524696551736481, 0.8751358717119508, 0.782773209677369, 0.7864971410094246, 0.7477493997034763, 0.7696532660526162, 0.6535116643501452, 0.6220377961924499, 0.6272767286074522]
+Training:
+Train_bal_acc: [0.38694932102190166, 0.6915995174059691, 0.749654412476993, 0.7615571693394272, 0.7880032011483624, 0.7972156504011344, 0.8110219567074406, 0.842793618398457, 0.8637321338934244, 0.8688449336433206]
+Train_acc: [tensor(0.3870, device='cuda:0', dtype=torch.float64), tensor(0.6916, device='cuda:0', dtype=torch.float64), tensor(0.7495, device='cuda:0', dtype=torch.float64), tensor(0.7614, device='cuda:0', dtype=torch.float64), tensor(0.7878, device='cuda:0', dtype=torch.float64), tensor(0.7970, device='cuda:0', dtype=torch.float64), tensor(0.8109, device='cuda:0', dtype=torch.float64), tensor(0.8427, device='cuda:0', dtype=torch.float64), tensor(0.8636, device='cuda:0', dtype=torch.float64), tensor(0.8688, device='cuda:0', dtype=torch.float64)]
+Train_loss: [2.223315585696179, 1.0055953751439635, 0.8305801887875018, 0.7809944380884585, 0.6870260018369426, 0.6296105896649153, 0.6036687197892562, 0.4979740005472432, 0.4382477173338766, 0.4172122789465863]
+Current sparsity
+0.6597539553864471
+
+
+Training complete in 2m 37s
+Best val Balanced Acc: 0.819288
+Validation:
+Val_bal_acc: [0.6634164934544705, 0.7427868314937865, 0.7162246659579157, 0.753162887809675, 0.7463652976035693, 0.7731452972535364, 0.7733198884391982, 0.7960354824647159, 0.8100288949075998, 0.8192883588098793]
+Val_acc: [tensor(0.6639, device='cuda:0', dtype=torch.float64), tensor(0.7427, device='cuda:0', dtype=torch.float64), tensor(0.7160, device='cuda:0', dtype=torch.float64), tensor(0.7536, device='cuda:0', dtype=torch.float64), tensor(0.7473, device='cuda:0', dtype=torch.float64), tensor(0.7732, device='cuda:0', dtype=torch.float64), tensor(0.7730, device='cuda:0', dtype=torch.float64), tensor(0.7964, device='cuda:0', dtype=torch.float64), tensor(0.8106, device='cuda:0', dtype=torch.float64), tensor(0.8196, device='cuda:0', dtype=torch.float64)]
+Val_loss: [1.1360734471120701, 0.8576767760097704, 0.9064159069863156, 0.800802691117981, 0.8151918904077587, 0.7244652079184265, 0.7348974348089291, 0.6516946931241415, 0.6120066926244755, 0.595016821768083]
+Training:
+Train_bal_acc: [0.39511701584282233, 0.6794770723802982, 0.7283179220275994, 0.7748264026489833, 0.7929113057338864, 0.7949657098447421, 0.817578916893433, 0.8508158415013252, 0.862422910447104, 0.8712937130679066]
+Train_acc: [tensor(0.3951, device='cuda:0', dtype=torch.float64), tensor(0.6793, device='cuda:0', dtype=torch.float64), tensor(0.7283, device='cuda:0', dtype=torch.float64), tensor(0.7747, device='cuda:0', dtype=torch.float64), tensor(0.7929, device='cuda:0', dtype=torch.float64), tensor(0.7948, device='cuda:0', dtype=torch.float64), tensor(0.8174, device='cuda:0', dtype=torch.float64), tensor(0.8508, device='cuda:0', dtype=torch.float64), tensor(0.8622, device='cuda:0', dtype=torch.float64), tensor(0.8712, device='cuda:0', dtype=torch.float64)]
+Train_loss: [2.179807730861332, 1.0247987477675728, 0.8755058037198108, 0.7156168300172557, 0.6661851424237956, 0.6452498972415924, 0.5920435888611753, 0.4944402846305267, 0.4474478823983151, 0.4244455537070399]
+Current sparsity
+0.5743491774985174
+
+
+Training complete in 2m 36s
+Best val Balanced Acc: 0.824562
+Validation:
+Val_bal_acc: [0.7241225601094707, 0.7309996360394334, 0.7486294012087892, 0.7426213929230595, 0.7542246253625347, 0.7731148812824608, 0.7925532790074166, 0.8124038947632799, 0.8245615526729525, 0.8052756746969155]
+Val_acc: [tensor(0.7239, device='cuda:0', dtype=torch.float64), tensor(0.7313, device='cuda:0', dtype=torch.float64), tensor(0.7490, device='cuda:0', dtype=torch.float64), tensor(0.7424, device='cuda:0', dtype=torch.float64), tensor(0.7542, device='cuda:0', dtype=torch.float64), tensor(0.7735, device='cuda:0', dtype=torch.float64), tensor(0.7931, device='cuda:0', dtype=torch.float64), tensor(0.8128, device='cuda:0', dtype=torch.float64), tensor(0.8250, device='cuda:0', dtype=torch.float64), tensor(0.8057, device='cuda:0', dtype=torch.float64)]
+Val_loss: [0.9268025856116839, 0.8744300605084988, 0.8120643290683209, 0.8174059969523064, 0.7870083238292891, 0.7107628318132123, 0.6750512038184694, 0.6166518508218296, 0.5767295599536111, 0.6140834095693148]
+Training:
+Train_bal_acc: [0.3994985381275703, 0.6893245114616082, 0.7476802021963312, 0.7701417179642988, 0.7781208334434142, 0.7875205740931548, 0.8202581834033446, 0.8423261054309441, 0.8691978635527022, 0.8713670598751245]
+Train_acc: [tensor(0.3995, device='cuda:0', dtype=torch.float64), tensor(0.6894, device='cuda:0', dtype=torch.float64), tensor(0.7476, device='cuda:0', dtype=torch.float64), tensor(0.7701, device='cuda:0', dtype=torch.float64), tensor(0.7780, device='cuda:0', dtype=torch.float64), tensor(0.7875, device='cuda:0', dtype=torch.float64), tensor(0.8201, device='cuda:0', dtype=torch.float64), tensor(0.8421, device='cuda:0', dtype=torch.float64), tensor(0.8690, device='cuda:0', dtype=torch.float64), tensor(0.8712, device='cuda:0', dtype=torch.float64)]
+Train_loss: [2.173774966986283, 1.016577837259873, 0.8500728738048803, 0.7285547430100648, 0.7089119066362796, 0.6646363615989686, 0.5627099153788193, 0.4858477637819622, 0.41479714247195615, 0.41166363818489987]
+
+
+Dataset: dtd
+Norm L1
+Amount: 0.5
+
+
+Current sparsity
+1
+
+
+Training complete in 1m 26s
+Best val Balanced Acc: 0.621809
+Validation:
+Val_bal_acc: [0.44095744680851057, 0.5319148936170213, 0.551063829787234, 0.5686170212765957, 0.5750000000000001, 0.5797872340425532, 0.5622340425531913, 0.6154255319148935, 0.6117021276595742, 0.6218085106382978]
+Val_acc: [tensor(0.4410, device='cuda:0', dtype=torch.float64), tensor(0.5319, device='cuda:0', dtype=torch.float64), tensor(0.5511, device='cuda:0', dtype=torch.float64), tensor(0.5686, device='cuda:0', dtype=torch.float64), tensor(0.5750, device='cuda:0', dtype=torch.float64), tensor(0.5798, device='cuda:0', dtype=torch.float64), tensor(0.5622, device='cuda:0', dtype=torch.float64), tensor(0.6154, device='cuda:0', dtype=torch.float64), tensor(0.6117, device='cuda:0', dtype=torch.float64), tensor(0.6218, device='cuda:0', dtype=torch.float64)]
+Val_loss: [2.1293744305346873, 1.7541058697599046, 1.6453141623354972, 1.5467293673373284, 1.622854066402354, 1.613277638719437, 1.682602799192388, 1.5179107615288268, 1.5397052192941625, 1.5491998444212245]
+Training:
+Train_bal_acc: [0.19946808510638298, 0.4888297872340426, 0.6037234042553191, 0.6388297872340426, 0.7207446808510638, 0.748404255319149, 0.7675531914893616, 0.8244680851063825, 0.8585106382978726, 0.8611702127659572]
+Train_acc: [tensor(0.1995, device='cuda:0', dtype=torch.float64), tensor(0.4888, device='cuda:0', dtype=torch.float64), tensor(0.6037, device='cuda:0', dtype=torch.float64), tensor(0.6388, device='cuda:0', dtype=torch.float64), tensor(0.7207, device='cuda:0', dtype=torch.float64), tensor(0.7484, device='cuda:0', dtype=torch.float64), tensor(0.7676, device='cuda:0', dtype=torch.float64), tensor(0.8245, device='cuda:0', dtype=torch.float64), tensor(0.8585, device='cuda:0', dtype=torch.float64), tensor(0.8612, device='cuda:0', dtype=torch.float64)]
+Train_loss: [3.26815505737954, 1.8943905444855387, 1.3879089695342044, 1.1806572406849962, 0.9838749893168186, 0.8089832128362453, 0.7632523229781617, 0.5857580656700946, 0.45620623776253233, 0.4404605303673034]
+Current sparsity
+0.8705505632961241
+
+
+Training complete in 1m 25s
+Best val Balanced Acc: 0.591489
+Validation:
+Val_bal_acc: [0.23138297872340421, 0.42606382978723406, 0.48989361702127665, 0.5382978723404256, 0.5329787234042552, 0.5367021276595744, 0.5617021276595745, 0.5861702127659575, 0.5718085106382979, 0.5914893617021278]
+Val_acc: [tensor(0.2314, device='cuda:0', dtype=torch.float64), tensor(0.4261, device='cuda:0', dtype=torch.float64), tensor(0.4899, device='cuda:0', dtype=torch.float64), tensor(0.5383, device='cuda:0', dtype=torch.float64), tensor(0.5330, device='cuda:0', dtype=torch.float64), tensor(0.5367, device='cuda:0', dtype=torch.float64), tensor(0.5617, device='cuda:0', dtype=torch.float64), tensor(0.5862, device='cuda:0', dtype=torch.float64), tensor(0.5718, device='cuda:0', dtype=torch.float64), tensor(0.5915, device='cuda:0', dtype=torch.float64)]
+Val_loss: [3.1426133318150296, 2.1004892384752316, 1.8938135623931884, 1.668918887097785, 1.7137276786438962, 1.7095744231913952, 1.627011994351732, 1.5735351899836927, 1.5840150995457427, 1.5595479602509357]
+Training:
+Train_bal_acc: [0.0882978723404255, 0.3313829787234042, 0.46489361702127663, 0.5441489361702126, 0.6143617021276596, 0.6446808510638298, 0.6627659574468087, 0.7452127659574469, 0.7776595744680852, 0.7893617021276594]
+Train_acc: [tensor(0.0883, device='cuda:0', dtype=torch.float64), tensor(0.3314, device='cuda:0', dtype=torch.float64), tensor(0.4649, device='cuda:0', dtype=torch.float64), tensor(0.5441, device='cuda:0', dtype=torch.float64), tensor(0.6144, device='cuda:0', dtype=torch.float64), tensor(0.6447, device='cuda:0', dtype=torch.float64), tensor(0.6628, device='cuda:0', dtype=torch.float64), tensor(0.7452, device='cuda:0', dtype=torch.float64), tensor(0.7777, device='cuda:0', dtype=torch.float64), tensor(0.7894, device='cuda:0', dtype=torch.float64)]
+Train_loss: [3.648267889022827, 2.612196545905255, 1.9245422556045209, 1.587998761522009, 1.3224697564510588, 1.1992659350658985, 1.1093077456697504, 0.8372869806086763, 0.7151139467320544, 0.6842117152315506]
+Current sparsity
+0.757858283255199
+
+
+Training complete in 1m 25s
+Best val Balanced Acc: 0.595745
+Validation:
+Val_bal_acc: [0.2292553191489363, 0.41223404255319135, 0.4670212765957445, 0.5085106382978722, 0.5393617021276594, 0.546808510638298, 0.5367021276595745, 0.5718085106382979, 0.5723404255319149, 0.5957446808510638]
+Val_acc: [tensor(0.2293, device='cuda:0', dtype=torch.float64), tensor(0.4122, device='cuda:0', dtype=torch.float64), tensor(0.4670, device='cuda:0', dtype=torch.float64), tensor(0.5085, device='cuda:0', dtype=torch.float64), tensor(0.5394, device='cuda:0', dtype=torch.float64), tensor(0.5468, device='cuda:0', dtype=torch.float64), tensor(0.5367, device='cuda:0', dtype=torch.float64), tensor(0.5718, device='cuda:0', dtype=torch.float64), tensor(0.5723, device='cuda:0', dtype=torch.float64), tensor(0.5957, device='cuda:0', dtype=torch.float64)]
+Val_loss: [3.174411582946777, 2.1006662495592807, 1.899500302050976, 1.7987452963565258, 1.7336871938502534, 1.677933606188348, 1.6800524721754357, 1.562939624076194, 1.582324686456234, 1.5728692551876635]
+Training:
+Train_bal_acc: [0.09414893617021276, 0.3244680851063829, 0.4712765957446809, 0.5329787234042555, 0.5840425531914892, 0.6313829787234042, 0.6505319148936172, 0.7409574468085105, 0.7803191489361703, 0.7845744680851062]
+Train_acc: [tensor(0.0941, device='cuda:0', dtype=torch.float64), tensor(0.3245, device='cuda:0', dtype=torch.float64), tensor(0.4713, device='cuda:0', dtype=torch.float64), tensor(0.5330, device='cuda:0', dtype=torch.float64), tensor(0.5840, device='cuda:0', dtype=torch.float64), tensor(0.6314, device='cuda:0', dtype=torch.float64), tensor(0.6505, device='cuda:0', dtype=torch.float64), tensor(0.7410, device='cuda:0', dtype=torch.float64), tensor(0.7803, device='cuda:0', dtype=torch.float64), tensor(0.7846, device='cuda:0', dtype=torch.float64)]
+Train_loss: [3.670211866054129, 2.600751965096656, 1.9209784203387321, 1.612404587928285, 1.400650870039108, 1.235126361441105, 1.1508818692349374, 0.8958882998912893, 0.7259084072518855, 0.7022258271562293]
+Current sparsity
+0.6597539553864471
+
+
+Training complete in 1m 24s
+Best val Balanced Acc: 0.601596
+Validation:
+Val_bal_acc: [0.24521276595744682, 0.40638297872340423, 0.49308510638297853, 0.5196808510638298, 0.5255319148936171, 0.5207446808510638, 0.5558510638297872, 0.5840425531914895, 0.6015957446808511, 0.6]
+Val_acc: [tensor(0.2452, device='cuda:0', dtype=torch.float64), tensor(0.4064, device='cuda:0', dtype=torch.float64), tensor(0.4931, device='cuda:0', dtype=torch.float64), tensor(0.5197, device='cuda:0', dtype=torch.float64), tensor(0.5255, device='cuda:0', dtype=torch.float64), tensor(0.5207, device='cuda:0', dtype=torch.float64), tensor(0.5559, device='cuda:0', dtype=torch.float64), tensor(0.5840, device='cuda:0', dtype=torch.float64), tensor(0.6016, device='cuda:0', dtype=torch.float64), tensor(0.6000, device='cuda:0', dtype=torch.float64)]
+Val_loss: [3.1160517905620817, 2.219820402530914, 1.8403936421617548, 1.7202005208806788, 1.7109014797717967, 1.8094750896413276, 1.6573201022249586, 1.5466612354237983, 1.5581792567638642, 1.565710890546758]
+Training:
+Train_bal_acc: [0.09893617021276595, 0.33882978723404256, 0.4611702127659575, 0.5590425531914894, 0.6122340425531914, 0.6601063829787234, 0.6835106382978725, 0.7569148936170211, 0.7968085106382978, 0.7898936170212766]
+Train_acc: [tensor(0.0989, device='cuda:0', dtype=torch.float64), tensor(0.3388, device='cuda:0', dtype=torch.float64), tensor(0.4612, device='cuda:0', dtype=torch.float64), tensor(0.5590, device='cuda:0', dtype=torch.float64), tensor(0.6122, device='cuda:0', dtype=torch.float64), tensor(0.6601, device='cuda:0', dtype=torch.float64), tensor(0.6835, device='cuda:0', dtype=torch.float64), tensor(0.7569, device='cuda:0', dtype=torch.float64), tensor(0.7968, device='cuda:0', dtype=torch.float64), tensor(0.7899, device='cuda:0', dtype=torch.float64)]
+Train_loss: [3.6691874656271426, 2.588299945060243, 1.9305347823082133, 1.5375265309151183, 1.356967964578182, 1.1658723762694825, 1.084702173446087, 0.8111292433231435, 0.6655864540566789, 0.6665838756459824]
+Current sparsity
+0.5743491774985174
+
+
+Training complete in 1m 25s
+Best val Balanced Acc: 0.593085
+Validation:
+Val_bal_acc: [0.2643617021276596, 0.402127659574468, 0.49042553191489363, 0.4989361702127659, 0.5202127659574469, 0.524468085106383, 0.5579787234042553, 0.5781914893617023, 0.5840425531914895, 0.5930851063829787]
+Val_acc: [tensor(0.2644, device='cuda:0', dtype=torch.float64), tensor(0.4021, device='cuda:0', dtype=torch.float64), tensor(0.4904, device='cuda:0', dtype=torch.float64), tensor(0.4989, device='cuda:0', dtype=torch.float64), tensor(0.5202, device='cuda:0', dtype=torch.float64), tensor(0.5245, device='cuda:0', dtype=torch.float64), tensor(0.5580, device='cuda:0', dtype=torch.float64), tensor(0.5782, device='cuda:0', dtype=torch.float64), tensor(0.5840, device='cuda:0', dtype=torch.float64), tensor(0.5931, device='cuda:0', dtype=torch.float64)]
+Val_loss: [3.1539565695093033, 2.207449056239838, 1.8592750513807257, 1.7964679053489199, 1.755777327050554, 1.6869121561659144, 1.688530966068836, 1.5760371852428354, 1.570551914864398, 1.5566523577304596]
+Training:
+Train_bal_acc: [0.09946808510638296, 0.3393617021276596, 0.4457446808510637, 0.5404255319148936, 0.6037234042553193, 0.6180851063829785, 0.6627659574468087, 0.7420212765957447, 0.7904255319148936, 0.7829787234042552]
+Train_acc: [tensor(0.0995, device='cuda:0', dtype=torch.float64), tensor(0.3394, device='cuda:0', dtype=torch.float64), tensor(0.4457, device='cuda:0', dtype=torch.float64), tensor(0.5404, device='cuda:0', dtype=torch.float64), tensor(0.6037, device='cuda:0', dtype=torch.float64), tensor(0.6181, device='cuda:0', dtype=torch.float64), tensor(0.6628, device='cuda:0', dtype=torch.float64), tensor(0.7420, device='cuda:0', dtype=torch.float64), tensor(0.7904, device='cuda:0', dtype=torch.float64), tensor(0.7830, device='cuda:0', dtype=torch.float64)]
+Train_loss: [3.6840339975154146, 2.578508095031089, 1.979181355618416, 1.6168236656391874, 1.3383606048340493, 1.2776227702485754, 1.1156589546102158, 0.8594958089767618, 0.6997681168799704, 0.6976601889792909]
+
